@@ -5,8 +5,15 @@ class Doctor:
         self.name = name
         self.specialization = specialization
 
-    def create_doctors():
-        with DatabaseConnection('data.db') as connection:
-            cursor = connection.execute()
-            cursor.execute('CREATE TABLE IF NOT EXISTS doctors(doctor_name)')
+    # def add_doctor():
+    #     with DatabaseConnection('data.db') as connection:
+    #         cursor = connection.execute()
+    #         cursor.execute('INSERT INTO doctors VALUES(?,?)', ('))
+
+    # def create_doctors():
+    #     with DatabaseConnection('data.db') as connection:
+    #         cursor = connection.execute()
+    #         cursor.execute('CREATE TABLE IF NOT EXISTS doctors(doctor_name, specialization)')
+    #         Doctor.add_doctor()
+
           

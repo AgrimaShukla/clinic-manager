@@ -58,3 +58,24 @@ def validate_gender():
         val = validation(regex_name, gender)
         if val == True:
             return gender.lower()
+        
+
+def validate_user():
+    while True:
+        print("Username: \n1) Must start with letter\n2) Follwed by letters, digits, underscores or hyphen\n3) Length must be between 5 to 20")
+        user = input("Enter username: ")
+        regex_name = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]{5,20}$')
+        val = validation(regex_name, user)
+        if val == True:
+            return user
+        
+def validate_mobile_no():
+    while True:
+        m_no = input("Enter mobile number: ")
+        regex_name = re.compile(r'^[0-9]{10}')
+        val = validation(regex_name, m_no)
+        if val == True:
+            return m_no
+        
+
+        
