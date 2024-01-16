@@ -1,0 +1,1571 @@
+08-01-2024 14:26:05 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 14:28:18 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 14:31:05 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 14:32:36 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 14:32:36 - no such table: REGISTRATION
+08-01-2024 14:33:23 - unable to open database file
+08-01-2024 14:33:29 - unable to open database file
+08-01-2024 14:33:52 - unable to open database file
+08-01-2024 14:34:41 - unable to open database file
+08-01-2024 14:35:15 - <class 'FileNotFoundError'> error occurred
+08-01-2024 14:35:15 - [Errno 2] No such file or directory: 'filekey.key'
+08-01-2024 14:36:51 - <class 'FileNotFoundError'> error occurred
+08-01-2024 14:36:51 - [Errno 2] No such file or directory: 'filekey.key'
+08-01-2024 14:37:36 - <class 'TypeError'> error occurred
+08-01-2024 14:37:36 - execute expected at least 1 argument, got 0
+08-01-2024 21:42:05 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 21:55:08 - <class 'TypeError'> error occurred
+08-01-2024 22:00:59 - Cannot operate on a closed database.
+08-01-2024 22:02:35 - Cannot operate on a closed database.
+08-01-2024 22:03:58 - cannot access local variable 'date_time' where it is not associated with a value
+08-01-2024 22:06:46 - Cannot operate on a closed database.
+08-01-2024 22:07:22 - Cannot operate on a closed database.
+08-01-2024 22:08:51 - Cannot operate on a closed database.
+08-01-2024 22:11:08 - Cannot operate on a closed database.
+08-01-2024 22:12:41 - unable to open database file
+08-01-2024 22:13:42 - unable to open database file
+08-01-2024 22:15:16 - Stop Iteration encountered
+08-01-2024 22:15:29 - Stop Iteration encountered
+08-01-2024 22:15:39 - Stop Iteration encountered
+08-01-2024 22:16:04 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 22:16:04 - no such table: Appointments
+08-01-2024 22:18:14 - Stop Iteration encountered
+08-01-2024 22:18:36 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 22:18:36 - no such table: Appointments
+08-01-2024 22:38:53 - Stop Iteration encountered
+08-01-2024 22:42:52 - <class 'KeyboardInterrupt'> error occurred
+08-01-2024 22:43:00 - patient.reg() missing 1 required positional argument: 'self'
+08-01-2024 22:44:20 - patient.reg() missing 1 required positional argument: 'self'
+08-01-2024 22:46:14 - <class 'sqlite3.OperationalError'> error occurred
+08-01-2024 22:46:14 - <class 'Exception'> error occurred
+08-01-2024 22:46:14 - Error will registration system
+08-01-2024 22:47:58 - Invalid username or password
+11-01-2024 15:09:01 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+11-01-2024 15:09:01 - [33mPress CTRL+C to quit[0m
+11-01-2024 15:09:01 -  * Restarting with stat
+11-01-2024 15:09:01 -  * Debugger is active!
+11-01-2024 15:09:01 -  * Debugger PIN: 443-246-619
+11-01-2024 15:16:05 - <class 'KeyboardInterrupt'> error occurred
+11-01-2024 15:16:23 - Invalid username or password
+11-01-2024 15:16:23 - cannot unpack non-iterable bool object
+11-01-2024 15:16:54 - <class 'UnboundLocalError'> error occurred
+11-01-2024 15:16:54 - cannot access local variable 'u_pw' where it is not associated with a value
+12-01-2024 11:28:22 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:28:22 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:28:22 -  * Restarting with stat
+12-01-2024 11:28:23 -  * Debugger is active!
+12-01-2024 11:28:23 -  * Debugger PIN: 443-246-619
+12-01-2024 11:40:56 - 127.0.0.1 - - [12/Jan/2024 11:40:56] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:42:04 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 11:42:05 -  * Restarting with stat
+12-01-2024 11:42:06 -  * Debugger is active!
+12-01-2024 11:42:06 -  * Debugger PIN: 443-246-619
+12-01-2024 11:42:08 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 11:42:08 -  * Restarting with stat
+12-01-2024 11:42:08 -  * Debugger is active!
+12-01-2024 11:42:08 -  * Debugger PIN: 443-246-619
+12-01-2024 11:42:17 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 11:42:17 -  * Restarting with stat
+12-01-2024 11:42:18 -  * Debugger is active!
+12-01-2024 11:42:18 -  * Debugger PIN: 443-246-619
+12-01-2024 11:42:20 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 11:42:20 -  * Restarting with stat
+12-01-2024 11:42:21 -  * Debugger is active!
+12-01-2024 11:42:21 -  * Debugger PIN: 443-246-619
+12-01-2024 11:42:55 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 11:42:55 -  * Restarting with stat
+12-01-2024 11:42:56 -  * Debugger is active!
+12-01-2024 11:42:56 -  * Debugger PIN: 443-246-619
+12-01-2024 11:43:03 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 11:43:03 -  * Restarting with stat
+12-01-2024 11:43:03 -  * Debugger is active!
+12-01-2024 11:43:03 -  * Debugger PIN: 443-246-619
+12-01-2024 11:43:10 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 11:43:10 -  * Restarting with stat
+12-01-2024 11:43:11 -  * Debugger is active!
+12-01-2024 11:43:11 -  * Debugger PIN: 443-246-619
+12-01-2024 11:43:46 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:43:46 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:43:46 -  * Restarting with stat
+12-01-2024 11:43:46 -  * Debugger is active!
+12-01-2024 11:43:46 -  * Debugger PIN: 443-246-619
+12-01-2024 11:43:50 - 127.0.0.1 - - [12/Jan/2024 11:43:50] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:45:13 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 11:45:13 -  * Restarting with stat
+12-01-2024 11:46:12 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:46:12 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:46:12 -  * Restarting with stat
+12-01-2024 11:46:13 -  * Debugger is active!
+12-01-2024 11:46:13 -  * Debugger PIN: 443-246-619
+12-01-2024 11:46:19 - 127.0.0.1 - - [12/Jan/2024 11:46:19] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:47:39 - 127.0.0.1 - - [12/Jan/2024 11:47:39] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:48:05 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 11:48:05 -  * Restarting with stat
+12-01-2024 11:48:22 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:48:22 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:48:22 -  * Restarting with stat
+12-01-2024 11:48:23 -  * Debugger is active!
+12-01-2024 11:48:23 -  * Debugger PIN: 443-246-619
+12-01-2024 11:48:26 - 127.0.0.1 - - [12/Jan/2024 11:48:26] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:49:09 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 11:49:09 -  * Restarting with stat
+12-01-2024 11:49:10 -  * Debugger is active!
+12-01-2024 11:49:10 -  * Debugger PIN: 443-246-619
+12-01-2024 11:49:14 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 11:49:14 -  * Restarting with stat
+12-01-2024 11:49:15 -  * Debugger is active!
+12-01-2024 11:49:15 -  * Debugger PIN: 443-246-619
+12-01-2024 11:49:29 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:49:29 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:49:29 -  * Restarting with stat
+12-01-2024 11:49:30 -  * Debugger is active!
+12-01-2024 11:49:30 -  * Debugger PIN: 443-246-619
+12-01-2024 11:49:34 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:49:34 - 127.0.0.1 - - [12/Jan/2024 11:49:34] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 11:50:18 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 11:50:19 -  * Restarting with stat
+12-01-2024 11:50:19 -  * Debugger is active!
+12-01-2024 11:50:19 -  * Debugger PIN: 443-246-619
+12-01-2024 11:50:32 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:50:32 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:50:32 - 127.0.0.1 - - [12/Jan/2024 11:50:32] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:52:08 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 11:52:08 -  * Restarting with stat
+12-01-2024 11:52:09 -  * Debugger is active!
+12-01-2024 11:52:09 -  * Debugger PIN: 443-246-619
+12-01-2024 11:52:13 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 11:52:13 -  * Restarting with stat
+12-01-2024 11:52:14 -  * Debugger is active!
+12-01-2024 11:52:14 -  * Debugger PIN: 443-246-619
+12-01-2024 11:52:20 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:52:20 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:52:20 -  * Restarting with stat
+12-01-2024 11:52:20 -  * Debugger is active!
+12-01-2024 11:52:20 -  * Debugger PIN: 443-246-619
+12-01-2024 11:52:24 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:52:24 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:52:24 - 127.0.0.1 - - [12/Jan/2024 11:52:24] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:52:40 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:52:40 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:52:40 -  * Restarting with stat
+12-01-2024 11:52:41 -  * Debugger is active!
+12-01-2024 11:52:41 -  * Debugger PIN: 443-246-619
+12-01-2024 11:52:42 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:52:42 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:52:42 - 127.0.0.1 - - [12/Jan/2024 11:52:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:54:18 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:54:18 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:54:18 -  * Restarting with stat
+12-01-2024 11:54:19 -  * Debugger is active!
+12-01-2024 11:54:19 -  * Debugger PIN: 443-246-619
+12-01-2024 11:54:22 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:54:22 - <class 'sqlite3.OperationalError'> error occurred
+12-01-2024 11:54:22 - 127.0.0.1 - - [12/Jan/2024 11:54:22] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 11:54:38 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:54:38 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:54:38 -  * Restarting with stat
+12-01-2024 11:54:39 -  * Debugger is active!
+12-01-2024 11:54:39 -  * Debugger PIN: 443-246-619
+12-01-2024 11:55:08 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_conn.py', reloading
+12-01-2024 11:55:08 -  * Restarting with stat
+12-01-2024 11:55:09 -  * Debugger is active!
+12-01-2024 11:55:09 -  * Debugger PIN: 443-246-619
+12-01-2024 11:55:14 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 11:55:14 - [33mPress CTRL+C to quit[0m
+12-01-2024 11:55:14 -  * Restarting with stat
+12-01-2024 11:55:15 -  * Debugger is active!
+12-01-2024 11:55:15 -  * Debugger PIN: 443-246-619
+12-01-2024 11:55:17 - 127.0.0.1 - - [12/Jan/2024 11:55:17] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 11:58:06 - 127.0.0.1 - - [12/Jan/2024 11:58:06] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 11:58:25 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 11:58:26 -  * Restarting with stat
+12-01-2024 11:58:27 -  * Debugger is active!
+12-01-2024 11:58:27 -  * Debugger PIN: 443-246-619
+12-01-2024 12:00:11 - 127.0.0.1 - - [12/Jan/2024 12:00:11] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 12:00:44 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:00:44 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:00:44 -  * Restarting with stat
+12-01-2024 12:00:44 -  * Debugger is active!
+12-01-2024 12:00:44 -  * Debugger PIN: 443-246-619
+12-01-2024 12:00:47 - 127.0.0.1 - - [12/Jan/2024 12:00:47] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 12:01:02 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:01:02 -  * Restarting with stat
+12-01-2024 12:01:03 -  * Debugger is active!
+12-01-2024 12:01:03 -  * Debugger PIN: 443-246-619
+12-01-2024 12:01:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:01:06 -  * Restarting with stat
+12-01-2024 12:01:06 -  * Debugger is active!
+12-01-2024 12:01:06 -  * Debugger PIN: 443-246-619
+12-01-2024 12:01:10 - 127.0.0.1 - - [12/Jan/2024 12:01:10] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 12:01:34 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:01:35 -  * Restarting with stat
+12-01-2024 12:01:36 -  * Debugger is active!
+12-01-2024 12:01:36 -  * Debugger PIN: 443-246-619
+12-01-2024 12:01:45 - 127.0.0.1 - - [12/Jan/2024 12:01:45] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 12:02:11 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:02:11 -  * Restarting with stat
+12-01-2024 12:02:12 -  * Debugger is active!
+12-01-2024 12:02:12 -  * Debugger PIN: 443-246-619
+12-01-2024 12:02:16 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:02:16 -  * Restarting with stat
+12-01-2024 12:02:17 -  * Debugger is active!
+12-01-2024 12:02:17 -  * Debugger PIN: 443-246-619
+12-01-2024 12:02:18 - 127.0.0.1 - - [12/Jan/2024 12:02:18] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 12:02:34 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:02:34 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:02:34 -  * Restarting with stat
+12-01-2024 12:02:35 -  * Debugger is active!
+12-01-2024 12:02:35 -  * Debugger PIN: 443-246-619
+12-01-2024 12:02:36 - 127.0.0.1 - - [12/Jan/2024 12:02:36] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+12-01-2024 12:02:51 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:02:56 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:02:56 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:02:56 -  * Restarting with stat
+12-01-2024 12:02:57 -  * Debugger is active!
+12-01-2024 12:02:57 -  * Debugger PIN: 443-246-619
+12-01-2024 12:02:59 - 127.0.0.1 - - [12/Jan/2024 12:02:59] "POST /register HTTP/1.1" 200 -
+12-01-2024 12:03:43 - 127.0.0.1 - - [12/Jan/2024 12:03:43] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:04:01 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\encrypt.py', reloading
+12-01-2024 12:04:01 -  * Restarting with stat
+12-01-2024 12:04:02 -  * Debugger is active!
+12-01-2024 12:04:02 -  * Debugger PIN: 443-246-619
+12-01-2024 12:04:10 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:04:10 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:04:10 -  * Restarting with stat
+12-01-2024 12:04:10 -  * Debugger is active!
+12-01-2024 12:04:10 -  * Debugger PIN: 443-246-619
+12-01-2024 12:04:12 - 127.0.0.1 - - [12/Jan/2024 12:04:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:04:33 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\encrypt.py', reloading
+12-01-2024 12:04:33 -  * Restarting with stat
+12-01-2024 12:04:38 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:04:38 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:04:38 -  * Restarting with stat
+12-01-2024 12:04:39 -  * Debugger is active!
+12-01-2024 12:04:39 -  * Debugger PIN: 443-246-619
+12-01-2024 12:04:41 - 127.0.0.1 - - [12/Jan/2024 12:04:41] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:06:13 - 127.0.0.1 - - [12/Jan/2024 12:06:13] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:08:03 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\encrypt.py', reloading
+12-01-2024 12:08:04 -  * Restarting with stat
+12-01-2024 12:08:05 -  * Debugger is active!
+12-01-2024 12:08:05 -  * Debugger PIN: 443-246-619
+12-01-2024 12:08:11 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:08:11 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:08:11 -  * Restarting with stat
+12-01-2024 12:08:11 -  * Debugger is active!
+12-01-2024 12:08:11 -  * Debugger PIN: 443-246-619
+12-01-2024 12:08:14 - 127.0.0.1 - - [12/Jan/2024 12:08:14] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:08:32 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\encrypt.py', reloading
+12-01-2024 12:08:32 -  * Restarting with stat
+12-01-2024 12:08:33 -  * Debugger is active!
+12-01-2024 12:08:33 -  * Debugger PIN: 443-246-619
+12-01-2024 12:08:40 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:08:40 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:08:40 -  * Restarting with stat
+12-01-2024 12:08:40 -  * Debugger is active!
+12-01-2024 12:08:40 -  * Debugger PIN: 443-246-619
+12-01-2024 12:08:44 - 127.0.0.1 - - [12/Jan/2024 12:08:44] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:08:55 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\encrypt.py', reloading
+12-01-2024 12:08:55 -  * Restarting with stat
+12-01-2024 12:09:00 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:09:00 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:09:00 -  * Restarting with stat
+12-01-2024 12:09:01 -  * Debugger is active!
+12-01-2024 12:09:01 -  * Debugger PIN: 443-246-619
+12-01-2024 12:09:02 - 127.0.0.1 - - [12/Jan/2024 12:09:02] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:12:51 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:12:51 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:12:51 -  * Restarting with stat
+12-01-2024 12:12:52 -  * Debugger is active!
+12-01-2024 12:12:52 -  * Debugger PIN: 443-246-619
+12-01-2024 12:12:54 - 127.0.0.1 - - [12/Jan/2024 12:12:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 12:13:21 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\main.py', reloading
+12-01-2024 12:13:21 -  * Restarting with stat
+12-01-2024 12:13:22 -  * Debugger is active!
+12-01-2024 12:13:22 -  * Debugger PIN: 443-246-619
+12-01-2024 12:13:40 - 
+12-01-2024 12:16:48 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:16:48 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:16:48 -  * Restarting with stat
+12-01-2024 12:16:49 -  * Debugger is active!
+12-01-2024 12:16:49 -  * Debugger PIN: 443-246-619
+12-01-2024 12:16:51 - 127.0.0.1 - - [12/Jan/2024 12:16:51] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+12-01-2024 12:17:09 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:17:09 -  * Restarting with stat
+12-01-2024 12:17:15 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:17:15 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:17:15 -  * Restarting with stat
+12-01-2024 12:17:16 -  * Debugger is active!
+12-01-2024 12:17:16 -  * Debugger PIN: 443-246-619
+12-01-2024 12:17:19 - 127.0.0.1 - - [12/Jan/2024 12:17:19] "POST /register HTTP/1.1" 200 -
+12-01-2024 12:17:35 - Invalid username or password
+12-01-2024 12:17:35 - 127.0.0.1 - - [12/Jan/2024 12:17:35] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+12-01-2024 12:18:23 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:18:23 -  * Restarting with stat
+12-01-2024 12:18:24 -  * Debugger is active!
+12-01-2024 12:18:24 -  * Debugger PIN: 443-246-619
+12-01-2024 12:18:26 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:18:26 -  * Restarting with stat
+12-01-2024 12:18:27 -  * Debugger is active!
+12-01-2024 12:18:27 -  * Debugger PIN: 443-246-619
+12-01-2024 12:18:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:18:30 -  * Restarting with stat
+12-01-2024 12:18:30 -  * Debugger is active!
+12-01-2024 12:18:30 -  * Debugger PIN: 443-246-619
+12-01-2024 12:18:33 - Invalid username or password
+12-01-2024 12:18:33 - 127.0.0.1 - - [12/Jan/2024 12:18:33] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+12-01-2024 12:19:08 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:19:08 -  * Restarting with stat
+12-01-2024 12:19:09 -  * Debugger is active!
+12-01-2024 12:19:09 -  * Debugger PIN: 443-246-619
+12-01-2024 12:19:11 - Invalid username or password
+12-01-2024 12:19:11 - 127.0.0.1 - - [12/Jan/2024 12:19:11] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+12-01-2024 12:19:25 - 127.0.0.1 - - [12/Jan/2024 12:19:25] "POST /login HTTP/1.1" 200 -
+12-01-2024 12:19:31 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:19:31 -  * Restarting with stat
+12-01-2024 12:19:32 -  * Debugger is active!
+12-01-2024 12:19:32 -  * Debugger PIN: 443-246-619
+12-01-2024 12:19:36 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 12:19:36 -  * Restarting with stat
+12-01-2024 12:19:37 -  * Debugger is active!
+12-01-2024 12:19:37 -  * Debugger PIN: 443-246-619
+12-01-2024 12:21:00 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 12:21:00 - [33mPress CTRL+C to quit[0m
+12-01-2024 12:21:00 -  * Restarting with stat
+12-01-2024 12:21:01 -  * Debugger is active!
+12-01-2024 12:21:01 -  * Debugger PIN: 443-246-619
+12-01-2024 12:21:33 - 127.0.0.1 - - [12/Jan/2024 12:21:33] "POST /register HTTP/1.1" 200 -
+12-01-2024 12:21:54 - 127.0.0.1 - - [12/Jan/2024 12:21:54] "POST /login HTTP/1.1" 200 -
+12-01-2024 12:22:30 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 12:22:31 -  * Restarting with stat
+12-01-2024 12:22:32 -  * Debugger is active!
+12-01-2024 12:22:32 -  * Debugger PIN: 443-246-619
+12-01-2024 13:47:09 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 13:47:10 -  * Restarting with stat
+12-01-2024 13:47:11 -  * Debugger is active!
+12-01-2024 13:47:11 -  * Debugger PIN: 443-246-619
+12-01-2024 13:47:16 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 13:47:16 -  * Restarting with stat
+12-01-2024 13:47:16 -  * Debugger is active!
+12-01-2024 13:47:16 -  * Debugger PIN: 443-246-619
+12-01-2024 13:47:21 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 13:47:21 -  * Restarting with stat
+12-01-2024 13:47:21 -  * Debugger is active!
+12-01-2024 13:47:21 -  * Debugger PIN: 443-246-619
+12-01-2024 13:47:42 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\controllers\\appointments.py', reloading
+12-01-2024 13:47:43 -  * Restarting with stat
+12-01-2024 13:47:44 -  * Debugger is active!
+12-01-2024 13:47:44 -  * Debugger PIN: 443-246-619
+12-01-2024 13:47:50 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\controllers\\appointments.py', reloading
+12-01-2024 13:47:50 -  * Restarting with stat
+12-01-2024 13:47:51 -  * Debugger is active!
+12-01-2024 13:47:51 -  * Debugger PIN: 443-246-619
+12-01-2024 13:48:53 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:48:53 -  * Restarting with stat
+12-01-2024 13:48:54 -  * Debugger is active!
+12-01-2024 13:48:54 -  * Debugger PIN: 443-246-619
+12-01-2024 13:49:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:49:06 -  * Restarting with stat
+12-01-2024 13:49:07 -  * Debugger is active!
+12-01-2024 13:49:07 -  * Debugger PIN: 443-246-619
+12-01-2024 13:49:17 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:49:18 -  * Restarting with stat
+12-01-2024 13:49:19 -  * Debugger is active!
+12-01-2024 13:49:19 -  * Debugger PIN: 443-246-619
+12-01-2024 13:49:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:49:29 -  * Restarting with stat
+12-01-2024 13:49:30 -  * Debugger is active!
+12-01-2024 13:49:30 -  * Debugger PIN: 443-246-619
+12-01-2024 13:49:32 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:49:32 -  * Restarting with stat
+12-01-2024 13:49:32 -  * Debugger is active!
+12-01-2024 13:49:32 -  * Debugger PIN: 443-246-619
+12-01-2024 13:49:37 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:49:37 -  * Restarting with stat
+12-01-2024 13:49:38 -  * Debugger is active!
+12-01-2024 13:49:38 -  * Debugger PIN: 443-246-619
+12-01-2024 13:49:42 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:49:42 -  * Restarting with stat
+12-01-2024 13:49:43 -  * Debugger is active!
+12-01-2024 13:49:43 -  * Debugger PIN: 443-246-619
+12-01-2024 13:49:47 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:49:47 -  * Restarting with stat
+12-01-2024 13:49:48 -  * Debugger is active!
+12-01-2024 13:49:48 -  * Debugger PIN: 443-246-619
+12-01-2024 13:50:03 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:50:03 -  * Restarting with stat
+12-01-2024 13:50:03 -  * Debugger is active!
+12-01-2024 13:50:03 -  * Debugger PIN: 443-246-619
+12-01-2024 13:50:05 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:50:05 -  * Restarting with stat
+12-01-2024 13:50:06 -  * Debugger is active!
+12-01-2024 13:50:06 -  * Debugger PIN: 443-246-619
+12-01-2024 13:50:14 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:50:14 -  * Restarting with stat
+12-01-2024 13:50:15 -  * Debugger is active!
+12-01-2024 13:50:15 -  * Debugger PIN: 443-246-619
+12-01-2024 13:50:19 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:50:19 -  * Restarting with stat
+12-01-2024 13:50:20 -  * Debugger is active!
+12-01-2024 13:50:20 -  * Debugger PIN: 443-246-619
+12-01-2024 13:50:28 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:50:28 -  * Restarting with stat
+12-01-2024 13:50:28 -  * Debugger is active!
+12-01-2024 13:50:28 -  * Debugger PIN: 443-246-619
+12-01-2024 13:50:34 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:50:35 -  * Restarting with stat
+12-01-2024 13:50:35 -  * Debugger is active!
+12-01-2024 13:50:35 -  * Debugger PIN: 443-246-619
+12-01-2024 13:50:39 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 13:50:39 -  * Restarting with stat
+12-01-2024 13:50:40 -  * Debugger is active!
+12-01-2024 13:50:40 -  * Debugger PIN: 443-246-619
+12-01-2024 14:11:00 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 14:11:00 - [33mPress CTRL+C to quit[0m
+12-01-2024 14:11:00 -  * Restarting with stat
+12-01-2024 14:11:01 -  * Debugger is active!
+12-01-2024 14:11:01 -  * Debugger PIN: 443-246-619
+12-01-2024 15:00:04 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:00:04 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:00:04 -  * Restarting with stat
+12-01-2024 15:00:04 -  * Debugger is active!
+12-01-2024 15:00:04 -  * Debugger PIN: 443-246-619
+12-01-2024 15:00:07 - 127.0.0.1 - - [12/Jan/2024 15:00:07] "POST /login HTTP/1.1" 200 -
+12-01-2024 15:01:38 - 127.0.0.1 - - [12/Jan/2024 15:01:38] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:01:40 - 127.0.0.1 - - [12/Jan/2024 15:01:40] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:01:55 - 127.0.0.1 - - [12/Jan/2024 15:01:55] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:02:22 - 127.0.0.1 - - [12/Jan/2024 15:02:22] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:02:50 - 127.0.0.1 - - [12/Jan/2024 15:02:50] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:03:37 - 127.0.0.1 - - [12/Jan/2024 15:03:37] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:04:11 - 127.0.0.1 - - [12/Jan/2024 15:04:11] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:04:21 - 127.0.0.1 - - [12/Jan/2024 15:04:21] "[33mPOST /appointment HTTP/1.1[0m" 404 -
+12-01-2024 15:04:42 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\main.py', reloading
+12-01-2024 15:04:42 -  * Restarting with stat
+12-01-2024 15:06:01 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:06:01 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:06:01 -  * Restarting with stat
+12-01-2024 15:06:02 -  * Debugger is active!
+12-01-2024 15:06:02 -  * Debugger PIN: 443-246-619
+12-01-2024 15:06:05 - 127.0.0.1 - - [12/Jan/2024 15:06:05] "[31m[1mPOST /appointment HTTP/1.1[0m" 422 -
+12-01-2024 15:06:53 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:06:53 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:06:53 -  * Restarting with stat
+12-01-2024 15:06:53 -  * Debugger is active!
+12-01-2024 15:06:53 -  * Debugger PIN: 443-246-619
+12-01-2024 15:06:56 - 127.0.0.1 - - [12/Jan/2024 15:06:56] "[31m[1mPOST /appointment HTTP/1.1[0m" 422 -
+12-01-2024 15:07:10 - <class 'TypeError'> error occurred
+12-01-2024 15:07:11 - 127.0.0.1 - - [12/Jan/2024 15:07:11] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:08:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:09:00 -  * Restarting with stat
+12-01-2024 15:09:01 -  * Debugger is active!
+12-01-2024 15:09:01 -  * Debugger PIN: 443-246-619
+12-01-2024 15:09:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:09:06 -  * Restarting with stat
+12-01-2024 15:09:07 -  * Debugger is active!
+12-01-2024 15:09:07 -  * Debugger PIN: 443-246-619
+12-01-2024 15:09:11 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:09:12 -  * Restarting with stat
+12-01-2024 15:09:12 -  * Debugger is active!
+12-01-2024 15:09:12 -  * Debugger PIN: 443-246-619
+12-01-2024 15:09:19 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:09:19 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:09:19 -  * Restarting with stat
+12-01-2024 15:09:20 -  * Debugger is active!
+12-01-2024 15:09:20 -  * Debugger PIN: 443-246-619
+12-01-2024 15:09:23 - 127.0.0.1 - - [12/Jan/2024 15:09:23] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:09:38 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:09:38 -  * Restarting with stat
+12-01-2024 15:09:38 -  * Debugger is active!
+12-01-2024 15:09:38 -  * Debugger PIN: 443-246-619
+12-01-2024 15:09:43 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:09:43 -  * Restarting with stat
+12-01-2024 15:09:43 -  * Debugger is active!
+12-01-2024 15:09:43 -  * Debugger PIN: 443-246-619
+12-01-2024 15:09:46 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:09:46 -  * Restarting with stat
+12-01-2024 15:09:51 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:09:51 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:09:51 -  * Restarting with stat
+12-01-2024 15:09:52 -  * Debugger is active!
+12-01-2024 15:09:52 -  * Debugger PIN: 443-246-619
+12-01-2024 15:09:54 - 127.0.0.1 - - [12/Jan/2024 15:09:54] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:11:25 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:11:25 -  * Restarting with stat
+12-01-2024 15:11:39 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:11:39 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:11:39 -  * Restarting with stat
+12-01-2024 15:11:40 -  * Debugger is active!
+12-01-2024 15:11:40 -  * Debugger PIN: 443-246-619
+12-01-2024 15:11:42 - 127.0.0.1 - - [12/Jan/2024 15:11:42] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:12:04 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:12:04 -  * Restarting with stat
+12-01-2024 15:12:04 -  * Debugger is active!
+12-01-2024 15:12:04 -  * Debugger PIN: 443-246-619
+12-01-2024 15:12:09 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:12:09 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:12:09 -  * Restarting with stat
+12-01-2024 15:12:10 -  * Debugger is active!
+12-01-2024 15:12:10 -  * Debugger PIN: 443-246-619
+12-01-2024 15:12:13 - 127.0.0.1 - - [12/Jan/2024 15:12:13] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:12:31 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:12:31 -  * Restarting with stat
+12-01-2024 15:12:32 -  * Debugger is active!
+12-01-2024 15:12:32 -  * Debugger PIN: 443-246-619
+12-01-2024 15:12:37 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:12:37 -  * Restarting with stat
+12-01-2024 15:12:37 -  * Debugger is active!
+12-01-2024 15:12:37 -  * Debugger PIN: 443-246-619
+12-01-2024 15:12:44 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:12:44 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:12:44 -  * Restarting with stat
+12-01-2024 15:12:44 -  * Debugger is active!
+12-01-2024 15:12:44 -  * Debugger PIN: 443-246-619
+12-01-2024 15:12:48 - 127.0.0.1 - - [12/Jan/2024 15:12:48] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:14:07 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:14:07 -  * Restarting with stat
+12-01-2024 15:14:08 -  * Debugger is active!
+12-01-2024 15:14:08 -  * Debugger PIN: 443-246-619
+12-01-2024 15:14:53 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:14:53 -  * Restarting with stat
+12-01-2024 15:14:54 -  * Debugger is active!
+12-01-2024 15:14:54 -  * Debugger PIN: 443-246-619
+12-01-2024 15:14:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:14:59 -  * Restarting with stat
+12-01-2024 15:14:59 -  * Debugger is active!
+12-01-2024 15:14:59 -  * Debugger PIN: 443-246-619
+12-01-2024 15:15:02 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:15:02 -  * Restarting with stat
+12-01-2024 15:15:03 -  * Debugger is active!
+12-01-2024 15:15:03 -  * Debugger PIN: 443-246-619
+12-01-2024 15:15:05 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:15:05 -  * Restarting with stat
+12-01-2024 15:15:06 -  * Debugger is active!
+12-01-2024 15:15:06 -  * Debugger PIN: 443-246-619
+12-01-2024 15:15:10 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:15:10 -  * Restarting with stat
+12-01-2024 15:15:11 -  * Debugger is active!
+12-01-2024 15:15:11 -  * Debugger PIN: 443-246-619
+12-01-2024 15:15:13 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:15:13 -  * Restarting with stat
+12-01-2024 15:15:18 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:15:18 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:15:18 -  * Restarting with stat
+12-01-2024 15:15:18 -  * Debugger is active!
+12-01-2024 15:15:18 -  * Debugger PIN: 443-246-619
+12-01-2024 15:15:21 - 127.0.0.1 - - [12/Jan/2024 15:15:21] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:15:33 - 127.0.0.1 - - [12/Jan/2024 15:15:33] "POST /login HTTP/1.1" 200 -
+12-01-2024 15:15:37 - 127.0.0.1 - - [12/Jan/2024 15:15:37] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:17:42 - 127.0.0.1 - - [12/Jan/2024 15:17:42] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:17:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:17:59 -  * Restarting with stat
+12-01-2024 15:17:59 -  * Debugger is active!
+12-01-2024 15:17:59 -  * Debugger PIN: 443-246-619
+12-01-2024 15:18:01 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:18:01 -  * Restarting with stat
+12-01-2024 15:18:02 -  * Debugger is active!
+12-01-2024 15:18:02 -  * Debugger PIN: 443-246-619
+12-01-2024 15:18:13 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:18:13 -  * Restarting with stat
+12-01-2024 15:18:14 -  * Debugger is active!
+12-01-2024 15:18:14 -  * Debugger PIN: 443-246-619
+12-01-2024 15:20:19 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+12-01-2024 15:20:19 -  * Restarting with stat
+12-01-2024 15:21:30 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:21:30 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:21:30 -  * Restarting with stat
+12-01-2024 15:21:31 -  * Debugger is active!
+12-01-2024 15:21:31 -  * Debugger PIN: 443-246-619
+12-01-2024 15:21:35 - 127.0.0.1 - - [12/Jan/2024 15:21:35] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:22:10 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:22:10 -  * Restarting with stat
+12-01-2024 15:22:11 -  * Debugger is active!
+12-01-2024 15:22:11 -  * Debugger PIN: 443-246-619
+12-01-2024 15:22:13 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:22:13 -  * Restarting with stat
+12-01-2024 15:22:33 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:22:33 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:22:33 -  * Restarting with stat
+12-01-2024 15:22:33 -  * Debugger is active!
+12-01-2024 15:22:33 -  * Debugger PIN: 443-246-619
+12-01-2024 15:22:37 - 127.0.0.1 - - [12/Jan/2024 15:22:37] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:24:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:24:29 -  * Restarting with stat
+12-01-2024 15:24:30 -  * Debugger is active!
+12-01-2024 15:24:30 -  * Debugger PIN: 443-246-619
+12-01-2024 15:24:37 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:24:37 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:24:37 -  * Restarting with stat
+12-01-2024 15:24:38 -  * Debugger is active!
+12-01-2024 15:24:38 -  * Debugger PIN: 443-246-619
+12-01-2024 15:24:40 - 127.0.0.1 - - [12/Jan/2024 15:24:40] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:24:43 - 127.0.0.1 - - [12/Jan/2024 15:24:43] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:24:58 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:24:58 -  * Restarting with stat
+12-01-2024 15:24:59 -  * Debugger is active!
+12-01-2024 15:24:59 -  * Debugger PIN: 443-246-619
+12-01-2024 15:25:06 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:25:06 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:25:06 -  * Restarting with stat
+12-01-2024 15:25:07 -  * Debugger is active!
+12-01-2024 15:25:07 -  * Debugger PIN: 443-246-619
+12-01-2024 15:25:10 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:25:10 - 127.0.0.1 - - [12/Jan/2024 15:25:10] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:25:25 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:25:25 -  * Restarting with stat
+12-01-2024 15:25:26 -  * Debugger is active!
+12-01-2024 15:25:26 -  * Debugger PIN: 443-246-619
+12-01-2024 15:29:15 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:29:15 -  * Restarting with stat
+12-01-2024 15:29:27 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:29:27 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:29:27 -  * Restarting with stat
+12-01-2024 15:29:28 -  * Debugger is active!
+12-01-2024 15:29:28 -  * Debugger PIN: 443-246-619
+12-01-2024 15:29:31 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:29:31 - 127.0.0.1 - - [12/Jan/2024 15:29:31] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:30:34 - 127.0.0.1 - - [12/Jan/2024 15:30:34] "POST /login HTTP/1.1" 200 -
+12-01-2024 15:30:38 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:30:38 - 127.0.0.1 - - [12/Jan/2024 15:30:38] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:32:11 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:32:11 -  * Restarting with stat
+12-01-2024 15:32:12 -  * Debugger is active!
+12-01-2024 15:32:12 -  * Debugger PIN: 443-246-619
+12-01-2024 15:32:16 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:32:17 -  * Restarting with stat
+12-01-2024 15:32:17 -  * Debugger is active!
+12-01-2024 15:32:17 -  * Debugger PIN: 443-246-619
+12-01-2024 15:32:33 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:32:33 -  * Restarting with stat
+12-01-2024 15:33:05 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:33:05 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:33:05 -  * Restarting with stat
+12-01-2024 15:33:06 -  * Debugger is active!
+12-01-2024 15:33:06 -  * Debugger PIN: 443-246-619
+12-01-2024 15:33:08 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:33:08 - <class 'sqlite3.Error'>
+12-01-2024 15:33:08 - 127.0.0.1 - - [12/Jan/2024 15:33:08] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:34:53 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:34:53 -  * Restarting with stat
+12-01-2024 15:34:54 -  * Debugger is active!
+12-01-2024 15:34:54 -  * Debugger PIN: 443-246-619
+12-01-2024 15:34:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:34:59 -  * Restarting with stat
+12-01-2024 15:34:59 -  * Debugger is active!
+12-01-2024 15:34:59 -  * Debugger PIN: 443-246-619
+12-01-2024 15:35:06 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:35:06 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:35:06 -  * Restarting with stat
+12-01-2024 15:35:07 -  * Debugger is active!
+12-01-2024 15:35:07 -  * Debugger PIN: 443-246-619
+12-01-2024 15:35:09 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:35:09 - <class 'sqlite3.Error'>
+12-01-2024 15:35:09 - 127.0.0.1 - - [12/Jan/2024 15:35:09] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:35:43 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:35:43 -  * Restarting with stat
+12-01-2024 15:35:44 -  * Debugger is active!
+12-01-2024 15:35:44 -  * Debugger PIN: 443-246-619
+12-01-2024 15:35:49 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:35:49 -  * Restarting with stat
+12-01-2024 15:35:49 -  * Debugger is active!
+12-01-2024 15:35:49 -  * Debugger PIN: 443-246-619
+12-01-2024 15:36:02 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:36:02 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:36:02 -  * Restarting with stat
+12-01-2024 15:36:02 -  * Debugger is active!
+12-01-2024 15:36:02 -  * Debugger PIN: 443-246-619
+12-01-2024 15:36:05 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:36:05 - Error binding parameter 4: type 'list' is not supported
+12-01-2024 15:36:05 - 127.0.0.1 - - [12/Jan/2024 15:36:05] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:37:00 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:37:00 -  * Restarting with stat
+12-01-2024 15:37:01 -  * Debugger is active!
+12-01-2024 15:37:01 -  * Debugger PIN: 443-246-619
+12-01-2024 15:37:07 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:37:07 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:37:07 -  * Restarting with stat
+12-01-2024 15:37:07 -  * Debugger is active!
+12-01-2024 15:37:07 -  * Debugger PIN: 443-246-619
+12-01-2024 15:37:09 - 127.0.0.1 - - [12/Jan/2024 15:37:09] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:37:25 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:37:25 -  * Restarting with stat
+12-01-2024 15:37:26 -  * Debugger is active!
+12-01-2024 15:37:26 -  * Debugger PIN: 443-246-619
+12-01-2024 15:37:33 - 127.0.0.1 - - [12/Jan/2024 15:37:33] "POST /login HTTP/1.1" 200 -
+12-01-2024 15:39:24 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+12-01-2024 15:39:25 -  * Restarting with stat
+12-01-2024 15:39:25 -  * Debugger is active!
+12-01-2024 15:39:25 -  * Debugger PIN: 443-246-619
+12-01-2024 15:39:32 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:39:32 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:39:32 -  * Restarting with stat
+12-01-2024 15:39:33 -  * Debugger is active!
+12-01-2024 15:39:33 -  * Debugger PIN: 443-246-619
+12-01-2024 15:39:37 - 127.0.0.1 - - [12/Jan/2024 15:39:37] "POST /login HTTP/1.1" 200 -
+12-01-2024 15:39:41 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:39:41 - Error binding parameter 4: type 'list' is not supported
+12-01-2024 15:39:41 - 127.0.0.1 - - [12/Jan/2024 15:39:41] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:40:23 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+12-01-2024 15:40:23 -  * Restarting with stat
+12-01-2024 15:40:31 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:40:31 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:40:31 -  * Restarting with stat
+12-01-2024 15:40:32 -  * Debugger is active!
+12-01-2024 15:40:32 -  * Debugger PIN: 443-246-619
+12-01-2024 15:40:33 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:40:33 - 127.0.0.1 - - [12/Jan/2024 15:40:33] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:41:27 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:41:27 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:41:27 -  * Restarting with stat
+12-01-2024 15:41:28 -  * Debugger is active!
+12-01-2024 15:41:28 -  * Debugger PIN: 443-246-619
+12-01-2024 15:41:31 - <class 'sqlite3.ProgrammingError'> error occurred
+12-01-2024 15:41:32 - 127.0.0.1 - - [12/Jan/2024 15:41:32] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:42:14 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:42:15 -  * Restarting with stat
+12-01-2024 15:42:16 -  * Debugger is active!
+12-01-2024 15:42:16 -  * Debugger PIN: 443-246-619
+12-01-2024 15:42:23 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:42:23 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:42:23 -  * Restarting with stat
+12-01-2024 15:42:24 -  * Debugger is active!
+12-01-2024 15:42:24 -  * Debugger PIN: 443-246-619
+12-01-2024 15:42:26 - 127.0.0.1 - - [12/Jan/2024 15:42:26] "[35m[1mPOST /appointment HTTP/1.1[0m" 500 -
+12-01-2024 15:42:50 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:42:51 -  * Restarting with stat
+12-01-2024 15:42:52 -  * Debugger is active!
+12-01-2024 15:42:52 -  * Debugger PIN: 443-246-619
+12-01-2024 15:42:56 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:42:56 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:42:56 -  * Restarting with stat
+12-01-2024 15:42:56 -  * Debugger is active!
+12-01-2024 15:42:56 -  * Debugger PIN: 443-246-619
+12-01-2024 15:43:00 - 127.0.0.1 - - [12/Jan/2024 15:43:00] "POST /appointment HTTP/1.1" 200 -
+12-01-2024 15:44:07 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:44:07 -  * Restarting with stat
+12-01-2024 15:44:07 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:44:07 -  * Debugger is active!
+12-01-2024 15:44:07 -  * Debugger PIN: 443-246-619
+12-01-2024 15:44:09 - 127.0.0.1 - - [12/Jan/2024 15:44:09] "POST /appointment HTTP/1.1" 200 -
+12-01-2024 15:44:27 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:44:27 -  * Restarting with stat
+12-01-2024 15:44:27 -  * Debugger is active!
+12-01-2024 15:44:28 -  * Debugger PIN: 443-246-619
+12-01-2024 15:44:30 - 127.0.0.1 - - [12/Jan/2024 15:44:30] "POST /appointment HTTP/1.1" 200 -
+12-01-2024 15:44:45 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:44:46 -  * Restarting with stat
+12-01-2024 15:44:47 -  * Debugger is active!
+12-01-2024 15:44:47 -  * Debugger PIN: 443-246-619
+12-01-2024 15:44:50 - 127.0.0.1 - - [12/Jan/2024 15:44:50] "POST /appointment HTTP/1.1" 200 -
+12-01-2024 15:45:19 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:45:19 -  * Restarting with stat
+12-01-2024 15:45:19 -  * Debugger is active!
+12-01-2024 15:45:19 -  * Debugger PIN: 443-246-619
+12-01-2024 15:45:22 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:45:22 -  * Restarting with stat
+12-01-2024 15:45:22 -  * Debugger is active!
+12-01-2024 15:45:22 -  * Debugger PIN: 443-246-619
+12-01-2024 15:45:52 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:45:52 -  * Restarting with stat
+12-01-2024 15:45:53 -  * Debugger is active!
+12-01-2024 15:45:53 -  * Debugger PIN: 443-246-619
+12-01-2024 15:45:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:45:59 -  * Restarting with stat
+12-01-2024 15:53:25 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 15:53:25 - [33mPress CTRL+C to quit[0m
+12-01-2024 15:53:25 -  * Restarting with stat
+12-01-2024 15:53:26 -  * Debugger is active!
+12-01-2024 15:53:26 -  * Debugger PIN: 443-246-619
+12-01-2024 15:54:30 - 127.0.0.1 - - [12/Jan/2024 15:54:30] "[31m[1mDELETE /appointment HTTP/1.1[0m" 401 -
+12-01-2024 15:54:39 - 127.0.0.1 - - [12/Jan/2024 15:54:39] "[31m[1mDELETE /appointment HTTP/1.1[0m" 401 -
+12-01-2024 15:54:43 - 127.0.0.1 - - [12/Jan/2024 15:54:43] "POST /login HTTP/1.1" 200 -
+12-01-2024 15:54:47 - 127.0.0.1 - - [12/Jan/2024 15:54:47] "DELETE /appointment HTTP/1.1" 200 -
+12-01-2024 15:58:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:58:06 -  * Restarting with stat
+12-01-2024 15:58:06 -  * Debugger is active!
+12-01-2024 15:58:06 -  * Debugger PIN: 443-246-619
+12-01-2024 15:58:34 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:58:34 -  * Restarting with stat
+12-01-2024 15:58:34 -  * Debugger is active!
+12-01-2024 15:58:34 -  * Debugger PIN: 443-246-619
+12-01-2024 15:58:36 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:58:36 -  * Restarting with stat
+12-01-2024 15:58:37 -  * Debugger is active!
+12-01-2024 15:58:37 -  * Debugger PIN: 443-246-619
+12-01-2024 15:58:47 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:58:47 -  * Restarting with stat
+12-01-2024 15:58:48 -  * Debugger is active!
+12-01-2024 15:58:48 -  * Debugger PIN: 443-246-619
+12-01-2024 15:58:54 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:58:54 -  * Restarting with stat
+12-01-2024 15:58:55 -  * Debugger is active!
+12-01-2024 15:58:55 -  * Debugger PIN: 443-246-619
+12-01-2024 15:58:57 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:58:57 -  * Restarting with stat
+12-01-2024 15:58:58 -  * Debugger is active!
+12-01-2024 15:58:58 -  * Debugger PIN: 443-246-619
+12-01-2024 15:59:03 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+12-01-2024 15:59:03 -  * Restarting with stat
+12-01-2024 15:59:04 -  * Debugger is active!
+12-01-2024 15:59:04 -  * Debugger PIN: 443-246-619
+12-01-2024 15:59:48 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+12-01-2024 15:59:48 -  * Restarting with stat
+12-01-2024 16:06:58 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+12-01-2024 16:06:58 - [33mPress CTRL+C to quit[0m
+12-01-2024 16:06:58 -  * Restarting with stat
+12-01-2024 16:06:59 -  * Debugger is active!
+12-01-2024 16:06:59 -  * Debugger PIN: 443-246-619
+12-01-2024 16:07:08 - 127.0.0.1 - - [12/Jan/2024 16:07:08] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+12-01-2024 16:08:53 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+12-01-2024 16:08:53 -  * Restarting with stat
+12-01-2024 16:08:54 -  * Debugger is active!
+12-01-2024 16:08:54 -  * Debugger PIN: 443-246-619
+12-01-2024 16:10:08 - 127.0.0.1 - - [12/Jan/2024 16:10:08] "POST /register HTTP/1.1" 200 -
+12-01-2024 16:10:24 - 127.0.0.1 - - [12/Jan/2024 16:10:24] "POST /login HTTP/1.1" 200 -
+12-01-2024 16:10:36 - 127.0.0.1 - - [12/Jan/2024 16:10:36] "POST /appointment HTTP/1.1" 200 -
+12-01-2024 16:11:14 - 127.0.0.1 - - [12/Jan/2024 16:11:14] "DELETE /appointment HTTP/1.1" 200 -
+12-01-2024 17:33:55 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\controllers\\doctor.py', reloading
+12-01-2024 17:33:55 -  * Restarting with stat
+16-01-2024 09:32:07 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:32:07 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:32:07 -  * Restarting with stat
+16-01-2024 09:32:08 -  * Debugger is active!
+16-01-2024 09:32:08 -  * Debugger PIN: 443-246-619
+16-01-2024 09:32:12 - 127.0.0.1 - - [16/Jan/2024 09:32:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+16-01-2024 09:32:54 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:32:54 -  * Restarting with stat
+16-01-2024 09:32:55 -  * Debugger is active!
+16-01-2024 09:32:55 -  * Debugger PIN: 443-246-619
+16-01-2024 09:33:03 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:33:03 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:33:03 -  * Restarting with stat
+16-01-2024 09:33:04 -  * Debugger is active!
+16-01-2024 09:33:04 -  * Debugger PIN: 443-246-619
+16-01-2024 09:33:07 - 127.0.0.1 - - [16/Jan/2024 09:33:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+16-01-2024 09:33:55 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:33:55 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:33:55 -  * Restarting with stat
+16-01-2024 09:33:55 -  * Debugger is active!
+16-01-2024 09:33:55 -  * Debugger PIN: 443-246-619
+16-01-2024 09:33:59 - 127.0.0.1 - - [16/Jan/2024 09:33:59] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+16-01-2024 09:34:55 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+16-01-2024 09:34:55 -  * Restarting with stat
+16-01-2024 09:34:56 -  * Debugger is active!
+16-01-2024 09:34:56 -  * Debugger PIN: 443-246-619
+16-01-2024 09:35:41 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+16-01-2024 09:35:41 -  * Restarting with stat
+16-01-2024 09:35:42 -  * Debugger is active!
+16-01-2024 09:35:42 -  * Debugger PIN: 443-246-619
+16-01-2024 09:36:01 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+16-01-2024 09:36:02 -  * Restarting with stat
+16-01-2024 09:36:03 -  * Debugger is active!
+16-01-2024 09:36:03 -  * Debugger PIN: 443-246-619
+16-01-2024 09:36:12 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:36:12 -  * Restarting with stat
+16-01-2024 09:36:13 -  * Debugger is active!
+16-01-2024 09:36:13 -  * Debugger PIN: 443-246-619
+16-01-2024 09:37:00 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:37:01 -  * Restarting with stat
+16-01-2024 09:37:02 -  * Debugger is active!
+16-01-2024 09:37:02 -  * Debugger PIN: 443-246-619
+16-01-2024 09:37:04 - 127.0.0.1 - - [16/Jan/2024 09:37:04] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+16-01-2024 09:39:25 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:39:26 -  * Restarting with stat
+16-01-2024 09:39:26 -  * Debugger is active!
+16-01-2024 09:39:26 -  * Debugger PIN: 443-246-619
+16-01-2024 09:39:31 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:39:31 -  * Restarting with stat
+16-01-2024 09:39:32 -  * Debugger is active!
+16-01-2024 09:39:32 -  * Debugger PIN: 443-246-619
+16-01-2024 09:39:43 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:39:43 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:39:43 -  * Restarting with stat
+16-01-2024 09:39:44 -  * Debugger is active!
+16-01-2024 09:39:44 -  * Debugger PIN: 443-246-619
+16-01-2024 09:39:47 - 127.0.0.1 - - [16/Jan/2024 09:39:47] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:40:41 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:40:42 -  * Restarting with stat
+16-01-2024 09:40:42 -  * Debugger is active!
+16-01-2024 09:40:42 -  * Debugger PIN: 443-246-619
+16-01-2024 09:40:45 - 127.0.0.1 - - [16/Jan/2024 09:40:45] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:40:55 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:40:55 -  * Restarting with stat
+16-01-2024 09:40:56 -  * Debugger is active!
+16-01-2024 09:40:56 -  * Debugger PIN: 443-246-619
+16-01-2024 09:41:09 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\rolemapping.py', reloading
+16-01-2024 09:41:09 -  * Restarting with stat
+16-01-2024 09:41:21 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:41:21 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:41:21 -  * Restarting with stat
+16-01-2024 09:41:21 -  * Debugger is active!
+16-01-2024 09:41:21 -  * Debugger PIN: 443-246-619
+16-01-2024 09:41:47 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:41:47 -  * Restarting with stat
+16-01-2024 09:41:48 -  * Debugger is active!
+16-01-2024 09:41:48 -  * Debugger PIN: 443-246-619
+16-01-2024 09:41:57 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:41:57 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:41:57 -  * Restarting with stat
+16-01-2024 09:41:58 -  * Debugger is active!
+16-01-2024 09:41:58 -  * Debugger PIN: 443-246-619
+16-01-2024 09:42:04 - 127.0.0.1 - - [16/Jan/2024 09:42:04] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:42:51 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+16-01-2024 09:42:51 -  * Restarting with stat
+16-01-2024 09:42:52 -  * Debugger is active!
+16-01-2024 09:42:52 -  * Debugger PIN: 443-246-619
+16-01-2024 09:43:11 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:43:11 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:43:11 -  * Restarting with stat
+16-01-2024 09:43:12 -  * Debugger is active!
+16-01-2024 09:43:12 -  * Debugger PIN: 443-246-619
+16-01-2024 09:43:13 - 127.0.0.1 - - [16/Jan/2024 09:43:13] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:43:33 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:43:33 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:43:34 -  * Restarting with stat
+16-01-2024 09:43:34 -  * Debugger is active!
+16-01-2024 09:43:34 -  * Debugger PIN: 443-246-619
+16-01-2024 09:43:37 - 127.0.0.1 - - [16/Jan/2024 09:43:37] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:44:23 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:44:23 -  * Restarting with stat
+16-01-2024 09:44:23 -  * Debugger is active!
+16-01-2024 09:44:23 -  * Debugger PIN: 443-246-619
+16-01-2024 09:44:28 - 127.0.0.1 - - [16/Jan/2024 09:44:28] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:44:36 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:44:36 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:44:36 -  * Restarting with stat
+16-01-2024 09:44:37 -  * Debugger is active!
+16-01-2024 09:44:37 -  * Debugger PIN: 443-246-619
+16-01-2024 09:44:38 - 127.0.0.1 - - [16/Jan/2024 09:44:38] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:44:58 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:44:58 -  * Restarting with stat
+16-01-2024 09:44:59 -  * Debugger is active!
+16-01-2024 09:44:59 -  * Debugger PIN: 443-246-619
+16-01-2024 09:45:01 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:45:01 -  * Restarting with stat
+16-01-2024 09:45:02 -  * Debugger is active!
+16-01-2024 09:45:02 -  * Debugger PIN: 443-246-619
+16-01-2024 09:45:04 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:45:04 -  * Restarting with stat
+16-01-2024 09:45:04 -  * Debugger is active!
+16-01-2024 09:45:04 -  * Debugger PIN: 443-246-619
+16-01-2024 09:45:20 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:45:20 -  * Restarting with stat
+16-01-2024 09:45:21 -  * Debugger is active!
+16-01-2024 09:45:21 -  * Debugger PIN: 443-246-619
+16-01-2024 09:45:27 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:45:27 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:45:27 -  * Restarting with stat
+16-01-2024 09:45:28 -  * Debugger is active!
+16-01-2024 09:45:28 -  * Debugger PIN: 443-246-619
+16-01-2024 09:45:33 - 127.0.0.1 - - [16/Jan/2024 09:45:33] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:47:46 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:47:47 -  * Restarting with stat
+16-01-2024 09:47:48 -  * Debugger is active!
+16-01-2024 09:47:48 -  * Debugger PIN: 443-246-619
+16-01-2024 09:47:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:47:59 -  * Restarting with stat
+16-01-2024 09:47:59 -  * Debugger is active!
+16-01-2024 09:47:59 -  * Debugger PIN: 443-246-619
+16-01-2024 09:48:09 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\rolemapping.py', reloading
+16-01-2024 09:48:09 -  * Restarting with stat
+16-01-2024 09:48:09 -  * Debugger is active!
+16-01-2024 09:48:09 -  * Debugger PIN: 443-246-619
+16-01-2024 09:48:17 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:48:17 -  * Restarting with stat
+16-01-2024 09:48:18 -  * Debugger is active!
+16-01-2024 09:48:18 -  * Debugger PIN: 443-246-619
+16-01-2024 09:48:24 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:48:24 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:48:24 -  * Restarting with stat
+16-01-2024 09:48:25 -  * Debugger is active!
+16-01-2024 09:48:25 -  * Debugger PIN: 443-246-619
+16-01-2024 09:48:27 - 127.0.0.1 - - [16/Jan/2024 09:48:27] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:49:17 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:49:17 -  * Restarting with stat
+16-01-2024 09:49:17 -  * Debugger is active!
+16-01-2024 09:49:17 -  * Debugger PIN: 443-246-619
+16-01-2024 09:49:24 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:49:24 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:49:24 -  * Restarting with stat
+16-01-2024 09:49:25 -  * Debugger is active!
+16-01-2024 09:49:25 -  * Debugger PIN: 443-246-619
+16-01-2024 09:49:27 - 127.0.0.1 - - [16/Jan/2024 09:49:27] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:49:41 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:49:41 -  * Restarting with stat
+16-01-2024 09:49:42 -  * Debugger is active!
+16-01-2024 09:49:42 -  * Debugger PIN: 443-246-619
+16-01-2024 09:49:45 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:49:45 -  * Restarting with stat
+16-01-2024 09:49:46 -  * Debugger is active!
+16-01-2024 09:49:46 -  * Debugger PIN: 443-246-619
+16-01-2024 09:49:48 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:49:48 -  * Restarting with stat
+16-01-2024 09:49:49 -  * Debugger is active!
+16-01-2024 09:49:49 -  * Debugger PIN: 443-246-619
+16-01-2024 09:50:07 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:50:07 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:50:07 -  * Restarting with stat
+16-01-2024 09:50:07 -  * Debugger is active!
+16-01-2024 09:50:07 -  * Debugger PIN: 443-246-619
+16-01-2024 09:50:09 - 127.0.0.1 - - [16/Jan/2024 09:50:09] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:50:58 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\database\\database_access.py', reloading
+16-01-2024 09:50:59 -  * Restarting with stat
+16-01-2024 09:52:08 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 09:52:08 - [33mPress CTRL+C to quit[0m
+16-01-2024 09:52:08 -  * Restarting with stat
+16-01-2024 09:52:08 -  * Debugger is active!
+16-01-2024 09:52:08 -  * Debugger PIN: 443-246-619
+16-01-2024 09:52:11 - 127.0.0.1 - - [16/Jan/2024 09:52:11] "POST /login HTTP/1.1" 200 -
+16-01-2024 09:52:47 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:52:47 -  * Restarting with stat
+16-01-2024 09:52:48 -  * Debugger is active!
+16-01-2024 09:52:48 -  * Debugger PIN: 443-246-619
+16-01-2024 09:53:32 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\registration.py', reloading
+16-01-2024 09:53:32 -  * Restarting with stat
+16-01-2024 09:53:33 -  * Debugger is active!
+16-01-2024 09:53:33 -  * Debugger PIN: 443-246-619
+16-01-2024 09:53:44 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\user.py', reloading
+16-01-2024 09:53:44 -  * Restarting with stat
+16-01-2024 09:53:44 -  * Debugger is active!
+16-01-2024 09:53:44 -  * Debugger PIN: 443-246-619
+16-01-2024 10:02:58 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:02:58 -  * Restarting with stat
+16-01-2024 10:02:59 -  * Debugger is active!
+16-01-2024 10:02:59 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:06 -  * Restarting with stat
+16-01-2024 10:03:06 -  * Debugger is active!
+16-01-2024 10:03:06 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:08 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:08 -  * Restarting with stat
+16-01-2024 10:03:09 -  * Debugger is active!
+16-01-2024 10:03:09 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:15 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:15 -  * Restarting with stat
+16-01-2024 10:03:16 -  * Debugger is active!
+16-01-2024 10:03:16 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:22 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:22 -  * Restarting with stat
+16-01-2024 10:03:23 -  * Debugger is active!
+16-01-2024 10:03:23 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:29 -  * Restarting with stat
+16-01-2024 10:03:30 -  * Debugger is active!
+16-01-2024 10:03:30 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:32 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:32 -  * Restarting with stat
+16-01-2024 10:03:32 -  * Debugger is active!
+16-01-2024 10:03:32 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:41 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:41 -  * Restarting with stat
+16-01-2024 10:03:42 -  * Debugger is active!
+16-01-2024 10:03:42 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:46 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:46 -  * Restarting with stat
+16-01-2024 10:03:46 -  * Debugger is active!
+16-01-2024 10:03:46 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:51 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:51 -  * Restarting with stat
+16-01-2024 10:03:52 -  * Debugger is active!
+16-01-2024 10:03:52 -  * Debugger PIN: 443-246-619
+16-01-2024 10:03:56 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:03:56 -  * Restarting with stat
+16-01-2024 10:03:57 -  * Debugger is active!
+16-01-2024 10:03:57 -  * Debugger PIN: 443-246-619
+16-01-2024 10:04:03 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:04:03 -  * Restarting with stat
+16-01-2024 10:04:04 -  * Debugger is active!
+16-01-2024 10:04:04 -  * Debugger PIN: 443-246-619
+16-01-2024 10:04:10 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:04:10 -  * Restarting with stat
+16-01-2024 10:04:11 -  * Debugger is active!
+16-01-2024 10:04:11 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:06 -  * Restarting with stat
+16-01-2024 10:06:07 -  * Debugger is active!
+16-01-2024 10:06:07 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:09 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:09 -  * Restarting with stat
+16-01-2024 10:06:10 -  * Debugger is active!
+16-01-2024 10:06:10 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:12 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:12 -  * Restarting with stat
+16-01-2024 10:06:13 -  * Debugger is active!
+16-01-2024 10:06:13 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:17 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:17 -  * Restarting with stat
+16-01-2024 10:06:18 -  * Debugger is active!
+16-01-2024 10:06:18 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:24 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:24 -  * Restarting with stat
+16-01-2024 10:06:25 -  * Debugger is active!
+16-01-2024 10:06:25 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:29 -  * Restarting with stat
+16-01-2024 10:06:30 -  * Debugger is active!
+16-01-2024 10:06:30 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:34 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:34 -  * Restarting with stat
+16-01-2024 10:06:34 -  * Debugger is active!
+16-01-2024 10:06:34 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:38 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:38 -  * Restarting with stat
+16-01-2024 10:06:39 -  * Debugger is active!
+16-01-2024 10:06:39 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:43 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:43 -  * Restarting with stat
+16-01-2024 10:06:44 -  * Debugger is active!
+16-01-2024 10:06:44 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:49 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:49 -  * Restarting with stat
+16-01-2024 10:06:50 -  * Debugger is active!
+16-01-2024 10:06:50 -  * Debugger PIN: 443-246-619
+16-01-2024 10:06:53 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:06:53 -  * Restarting with stat
+16-01-2024 10:06:54 -  * Debugger is active!
+16-01-2024 10:06:54 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:00 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:00 -  * Restarting with stat
+16-01-2024 10:07:01 -  * Debugger is active!
+16-01-2024 10:07:01 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:05 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:05 -  * Restarting with stat
+16-01-2024 10:07:06 -  * Debugger is active!
+16-01-2024 10:07:06 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:16 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:16 -  * Restarting with stat
+16-01-2024 10:07:17 -  * Debugger is active!
+16-01-2024 10:07:17 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:21 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:21 -  * Restarting with stat
+16-01-2024 10:07:21 -  * Debugger is active!
+16-01-2024 10:07:21 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:23 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:23 -  * Restarting with stat
+16-01-2024 10:07:24 -  * Debugger is active!
+16-01-2024 10:07:24 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:35 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:35 -  * Restarting with stat
+16-01-2024 10:07:35 -  * Debugger is active!
+16-01-2024 10:07:35 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:37 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:37 -  * Restarting with stat
+16-01-2024 10:07:38 -  * Debugger is active!
+16-01-2024 10:07:38 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:40 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:40 -  * Restarting with stat
+16-01-2024 10:07:41 -  * Debugger is active!
+16-01-2024 10:07:41 -  * Debugger PIN: 443-246-619
+16-01-2024 10:07:45 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:07:45 -  * Restarting with stat
+16-01-2024 10:07:46 -  * Debugger is active!
+16-01-2024 10:07:46 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:00 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:08:00 -  * Restarting with stat
+16-01-2024 10:08:01 -  * Debugger is active!
+16-01-2024 10:08:01 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:02 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:08:02 -  * Restarting with stat
+16-01-2024 10:08:03 -  * Debugger is active!
+16-01-2024 10:08:03 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:05 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:08:05 -  * Restarting with stat
+16-01-2024 10:08:06 -  * Debugger is active!
+16-01-2024 10:08:06 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:08 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:08:08 -  * Restarting with stat
+16-01-2024 10:08:09 -  * Debugger is active!
+16-01-2024 10:08:09 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:15 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:08:15 -  * Restarting with stat
+16-01-2024 10:08:16 -  * Debugger is active!
+16-01-2024 10:08:16 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:20 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\utils\\role_based_access.py', reloading
+16-01-2024 10:08:20 -  * Restarting with stat
+16-01-2024 10:08:21 -  * Debugger is active!
+16-01-2024 10:08:21 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:50 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 10:08:50 -  * Restarting with stat
+16-01-2024 10:08:51 -  * Debugger is active!
+16-01-2024 10:08:51 -  * Debugger PIN: 443-246-619
+16-01-2024 10:08:54 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 10:08:54 -  * Restarting with stat
+16-01-2024 10:10:38 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 10:10:38 - [33mPress CTRL+C to quit[0m
+16-01-2024 10:10:38 -  * Restarting with stat
+16-01-2024 10:10:39 -  * Debugger is active!
+16-01-2024 10:10:39 -  * Debugger PIN: 443-246-619
+16-01-2024 10:10:42 - 127.0.0.1 - - [16/Jan/2024 10:10:42] "POST /login HTTP/1.1" 200 -
+16-01-2024 10:10:46 - 127.0.0.1 - - [16/Jan/2024 10:10:46] "POST /appointment HTTP/1.1" 200 -
+16-01-2024 10:11:11 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 10:11:11 -  * Restarting with stat
+16-01-2024 10:11:12 -  * Debugger is active!
+16-01-2024 10:11:12 -  * Debugger PIN: 443-246-619
+16-01-2024 10:11:16 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 10:11:17 -  * Restarting with stat
+16-01-2024 10:11:17 -  * Debugger is active!
+16-01-2024 10:11:17 -  * Debugger PIN: 443-246-619
+16-01-2024 10:12:09 - 127.0.0.1 - - [16/Jan/2024 10:12:09] "DELETE /appointment HTTP/1.1" 200 -
+16-01-2024 10:15:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 10:16:00 -  * Restarting with stat
+16-01-2024 11:06:22 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:06:22 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:06:22 -  * Restarting with stat
+16-01-2024 11:06:23 -  * Debugger is active!
+16-01-2024 11:06:23 -  * Debugger PIN: 443-246-619
+16-01-2024 11:06:25 - 127.0.0.1 - - [16/Jan/2024 11:06:25] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 401 -
+16-01-2024 11:06:37 - 127.0.0.1 - - [16/Jan/2024 11:06:37] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 401 -
+16-01-2024 11:06:41 - 127.0.0.1 - - [16/Jan/2024 11:06:41] "POST /login HTTP/1.1" 200 -
+16-01-2024 11:06:45 - 127.0.0.1 - - [16/Jan/2024 11:06:45] "[35m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 500 -
+16-01-2024 11:07:33 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:07:33 -  * Restarting with stat
+16-01-2024 11:07:34 -  * Debugger is active!
+16-01-2024 11:07:34 -  * Debugger PIN: 443-246-619
+16-01-2024 11:08:37 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:08:37 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:08:37 -  * Restarting with stat
+16-01-2024 11:08:38 -  * Debugger is active!
+16-01-2024 11:08:38 -  * Debugger PIN: 443-246-619
+16-01-2024 11:08:40 - 127.0.0.1 - - [16/Jan/2024 11:08:40] "[35m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 500 -
+16-01-2024 11:09:40 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:09:41 -  * Restarting with stat
+16-01-2024 11:09:42 -  * Debugger is active!
+16-01-2024 11:09:42 -  * Debugger PIN: 443-246-619
+16-01-2024 11:11:12 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:11:12 -  * Restarting with stat
+16-01-2024 11:11:13 -  * Debugger is active!
+16-01-2024 11:11:13 -  * Debugger PIN: 443-246-619
+16-01-2024 11:11:18 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:11:18 -  * Restarting with stat
+16-01-2024 11:11:19 -  * Debugger is active!
+16-01-2024 11:11:19 -  * Debugger PIN: 443-246-619
+16-01-2024 11:11:36 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:11:36 -  * Restarting with stat
+16-01-2024 11:11:37 -  * Debugger is active!
+16-01-2024 11:11:37 -  * Debugger PIN: 443-246-619
+16-01-2024 11:12:37 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+16-01-2024 11:12:37 -  * Restarting with stat
+16-01-2024 11:12:38 -  * Debugger is active!
+16-01-2024 11:12:38 -  * Debugger PIN: 443-246-619
+16-01-2024 11:12:40 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+16-01-2024 11:12:40 -  * Restarting with stat
+16-01-2024 11:12:41 -  * Debugger is active!
+16-01-2024 11:12:41 -  * Debugger PIN: 443-246-619
+16-01-2024 11:12:47 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:12:47 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:12:47 -  * Restarting with stat
+16-01-2024 11:12:48 -  * Debugger is active!
+16-01-2024 11:12:48 -  * Debugger PIN: 443-246-619
+16-01-2024 11:16:03 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:16:03 -  * Restarting with stat
+16-01-2024 11:16:04 -  * Debugger is active!
+16-01-2024 11:16:04 -  * Debugger PIN: 443-246-619
+16-01-2024 11:16:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:16:06 -  * Restarting with stat
+16-01-2024 11:16:07 -  * Debugger is active!
+16-01-2024 11:16:07 -  * Debugger PIN: 443-246-619
+16-01-2024 11:16:09 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:16:09 -  * Restarting with stat
+16-01-2024 11:16:09 -  * Debugger is active!
+16-01-2024 11:16:09 -  * Debugger PIN: 443-246-619
+16-01-2024 11:16:13 - 127.0.0.1 - - [16/Jan/2024 11:16:13] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 422 -
+16-01-2024 11:17:28 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:17:28 -  * Restarting with stat
+16-01-2024 11:17:29 -  * Debugger is active!
+16-01-2024 11:17:29 -  * Debugger PIN: 443-246-619
+16-01-2024 11:17:40 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:17:40 -  * Restarting with stat
+16-01-2024 11:17:41 -  * Debugger is active!
+16-01-2024 11:17:41 -  * Debugger PIN: 443-246-619
+16-01-2024 11:17:48 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:17:48 -  * Restarting with stat
+16-01-2024 11:17:49 -  * Debugger is active!
+16-01-2024 11:17:49 -  * Debugger PIN: 443-246-619
+16-01-2024 11:18:00 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:18:00 -  * Restarting with stat
+16-01-2024 11:18:01 -  * Debugger is active!
+16-01-2024 11:18:01 -  * Debugger PIN: 443-246-619
+16-01-2024 11:18:06 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:18:06 -  * Restarting with stat
+16-01-2024 11:18:07 -  * Debugger is active!
+16-01-2024 11:18:07 -  * Debugger PIN: 443-246-619
+16-01-2024 11:18:20 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:18:20 -  * Restarting with stat
+16-01-2024 11:18:21 -  * Debugger is active!
+16-01-2024 11:18:21 -  * Debugger PIN: 443-246-619
+16-01-2024 11:18:26 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:18:26 -  * Restarting with stat
+16-01-2024 11:18:26 -  * Debugger is active!
+16-01-2024 11:18:26 -  * Debugger PIN: 443-246-619
+16-01-2024 11:18:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:18:29 -  * Restarting with stat
+16-01-2024 11:18:29 -  * Debugger is active!
+16-01-2024 11:18:29 -  * Debugger PIN: 443-246-619
+16-01-2024 11:18:32 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:18:32 -  * Restarting with stat
+16-01-2024 11:18:52 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:18:52 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:18:52 -  * Restarting with stat
+16-01-2024 11:18:52 -  * Debugger is active!
+16-01-2024 11:18:52 -  * Debugger PIN: 443-246-619
+16-01-2024 11:18:59 - 127.0.0.1 - - [16/Jan/2024 11:18:59] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 422 -
+16-01-2024 11:19:00 - 127.0.0.1 - - [16/Jan/2024 11:19:00] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 422 -
+16-01-2024 11:19:46 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:19:46 -  * Restarting with stat
+16-01-2024 11:19:46 -  * Debugger is active!
+16-01-2024 11:19:46 -  * Debugger PIN: 443-246-619
+16-01-2024 11:19:48 - 127.0.0.1 - - [16/Jan/2024 11:19:48] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 422 -
+16-01-2024 11:20:07 - 127.0.0.1 - - [16/Jan/2024 11:20:07] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 422 -
+16-01-2024 11:20:37 - 127.0.0.1 - - [16/Jan/2024 11:20:37] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 422 -
+16-01-2024 11:20:51 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+16-01-2024 11:20:51 -  * Restarting with stat
+16-01-2024 11:20:52 -  * Debugger is active!
+16-01-2024 11:20:52 -  * Debugger PIN: 443-246-619
+16-01-2024 11:20:59 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+16-01-2024 11:20:59 -  * Restarting with stat
+16-01-2024 11:21:00 -  * Debugger is active!
+16-01-2024 11:21:00 -  * Debugger PIN: 443-246-619
+16-01-2024 11:21:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+16-01-2024 11:21:30 -  * Restarting with stat
+16-01-2024 11:21:31 -  * Debugger is active!
+16-01-2024 11:21:31 -  * Debugger PIN: 443-246-619
+16-01-2024 11:21:32 - 127.0.0.1 - - [16/Jan/2024 11:21:32] "[35m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 500 -
+16-01-2024 11:21:47 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:21:47 -  * Restarting with stat
+16-01-2024 11:21:47 -  * Debugger is active!
+16-01-2024 11:21:47 -  * Debugger PIN: 443-246-619
+16-01-2024 11:22:21 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:22:22 -  * Restarting with stat
+16-01-2024 11:22:22 -  * Debugger is active!
+16-01-2024 11:22:22 -  * Debugger PIN: 443-246-619
+16-01-2024 11:22:52 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:22:52 -  * Restarting with stat
+16-01-2024 11:22:53 -  * Debugger is active!
+16-01-2024 11:22:53 -  * Debugger PIN: 443-246-619
+16-01-2024 11:22:55 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:22:55 -  * Restarting with stat
+16-01-2024 11:22:56 -  * Debugger is active!
+16-01-2024 11:22:56 -  * Debugger PIN: 443-246-619
+16-01-2024 11:23:20 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:23:20 -  * Restarting with stat
+16-01-2024 11:25:22 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:25:22 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:25:22 -  * Restarting with stat
+16-01-2024 11:25:23 -  * Debugger is active!
+16-01-2024 11:25:23 -  * Debugger PIN: 443-246-619
+16-01-2024 11:25:26 - 127.0.0.1 - - [16/Jan/2024 11:25:26] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 401 -
+16-01-2024 11:25:30 - 127.0.0.1 - - [16/Jan/2024 11:25:30] "POST /login HTTP/1.1" 200 -
+16-01-2024 11:25:33 - 127.0.0.1 - - [16/Jan/2024 11:25:33] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 400 -
+16-01-2024 11:26:05 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:26:05 -  * Restarting with stat
+16-01-2024 11:26:06 -  * Debugger is active!
+16-01-2024 11:26:06 -  * Debugger PIN: 443-246-619
+16-01-2024 11:26:07 - 127.0.0.1 - - [16/Jan/2024 11:26:07] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 400 -
+16-01-2024 11:26:24 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\controllers\\appointments.py', reloading
+16-01-2024 11:26:24 -  * Restarting with stat
+16-01-2024 11:26:25 -  * Debugger is active!
+16-01-2024 11:26:25 -  * Debugger PIN: 443-246-619
+16-01-2024 11:26:29 - 127.0.0.1 - - [16/Jan/2024 11:26:29] "[31m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 400 -
+16-01-2024 11:27:02 - 127.0.0.1 - - [16/Jan/2024 11:27:02] "POST /appointment HTTP/1.1" 200 -
+16-01-2024 11:27:11 - 127.0.0.1 - - [16/Jan/2024 11:27:11] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:27:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:27:29 -  * Restarting with stat
+16-01-2024 11:27:29 -  * Debugger is active!
+16-01-2024 11:27:29 -  * Debugger PIN: 443-246-619
+16-01-2024 11:27:35 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:27:35 -  * Restarting with stat
+16-01-2024 11:27:35 -  * Debugger is active!
+16-01-2024 11:27:35 -  * Debugger PIN: 443-246-619
+16-01-2024 11:27:44 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\controllers\\appointments.py', reloading
+16-01-2024 11:27:44 -  * Restarting with stat
+16-01-2024 11:27:45 -  * Debugger is active!
+16-01-2024 11:27:45 -  * Debugger PIN: 443-246-619
+16-01-2024 11:27:52 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+16-01-2024 11:27:52 -  * Restarting with stat
+16-01-2024 11:27:53 -  * Debugger is active!
+16-01-2024 11:27:53 -  * Debugger PIN: 443-246-619
+16-01-2024 11:28:08 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\config\\database_query.py', reloading
+16-01-2024 11:28:09 -  * Restarting with stat
+16-01-2024 11:28:09 -  * Debugger is active!
+16-01-2024 11:28:09 -  * Debugger PIN: 443-246-619
+16-01-2024 11:28:24 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:28:25 -  * Restarting with stat
+16-01-2024 11:28:26 -  * Debugger is active!
+16-01-2024 11:28:26 -  * Debugger PIN: 443-246-619
+16-01-2024 11:28:33 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:28:33 -  * Restarting with stat
+16-01-2024 11:28:34 -  * Debugger is active!
+16-01-2024 11:28:34 -  * Debugger PIN: 443-246-619
+16-01-2024 11:28:41 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:28:41 -  * Restarting with stat
+16-01-2024 11:31:18 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:31:18 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:31:18 -  * Restarting with stat
+16-01-2024 11:31:19 -  * Debugger is active!
+16-01-2024 11:31:19 -  * Debugger PIN: 443-246-619
+16-01-2024 11:31:23 - 127.0.0.1 - - [16/Jan/2024 11:31:23] "[35m[1mGET /appointment/BKjCHQEqXu HTTP/1.1[0m" 500 -
+16-01-2024 11:31:57 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:31:57 -  * Restarting with stat
+16-01-2024 11:31:58 -  * Debugger is active!
+16-01-2024 11:31:58 -  * Debugger PIN: 443-246-619
+16-01-2024 11:32:03 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:32:03 -  * Restarting with stat
+16-01-2024 11:32:04 -  * Debugger is active!
+16-01-2024 11:32:04 -  * Debugger PIN: 443-246-619
+16-01-2024 11:32:07 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:32:07 -  * Restarting with stat
+16-01-2024 11:32:07 -  * Debugger is active!
+16-01-2024 11:32:07 -  * Debugger PIN: 443-246-619
+16-01-2024 11:32:12 - 127.0.0.1 - - [16/Jan/2024 11:32:12] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:32:22 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:32:22 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:32:22 -  * Restarting with stat
+16-01-2024 11:32:23 -  * Debugger is active!
+16-01-2024 11:32:23 -  * Debugger PIN: 443-246-619
+16-01-2024 11:32:25 - 127.0.0.1 - - [16/Jan/2024 11:32:25] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:32:36 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:32:36 -  * Restarting with stat
+16-01-2024 11:32:37 -  * Debugger is active!
+16-01-2024 11:32:37 -  * Debugger PIN: 443-246-619
+16-01-2024 11:32:39 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:32:39 -  * Restarting with stat
+16-01-2024 11:32:40 -  * Debugger is active!
+16-01-2024 11:32:40 -  * Debugger PIN: 443-246-619
+16-01-2024 11:32:43 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:32:43 -  * Restarting with stat
+16-01-2024 11:32:44 -  * Debugger is active!
+16-01-2024 11:32:44 -  * Debugger PIN: 443-246-619
+16-01-2024 11:32:48 - 127.0.0.1 - - [16/Jan/2024 11:32:48] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:34:14 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:34:14 -  * Restarting with stat
+16-01-2024 11:34:15 -  * Debugger is active!
+16-01-2024 11:34:15 -  * Debugger PIN: 443-246-619
+16-01-2024 11:34:23 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\controllers\\appointments.py', reloading
+16-01-2024 11:34:23 -  * Restarting with stat
+16-01-2024 11:34:24 -  * Debugger is active!
+16-01-2024 11:34:24 -  * Debugger PIN: 443-246-619
+16-01-2024 11:34:29 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\controllers\\appointments.py', reloading
+16-01-2024 11:34:29 -  * Restarting with stat
+16-01-2024 11:34:29 -  * Debugger is active!
+16-01-2024 11:34:29 -  * Debugger PIN: 443-246-619
+16-01-2024 11:34:34 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:34:34 -  * Restarting with stat
+16-01-2024 11:34:35 -  * Debugger is active!
+16-01-2024 11:34:35 -  * Debugger PIN: 443-246-619
+16-01-2024 11:34:39 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:34:39 -  * Restarting with stat
+16-01-2024 11:34:40 -  * Debugger is active!
+16-01-2024 11:34:40 -  * Debugger PIN: 443-246-619
+16-01-2024 11:35:24 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:35:24 -  * Restarting with stat
+16-01-2024 11:35:30 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:35:30 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:35:30 -  * Restarting with stat
+16-01-2024 11:35:31 -  * Debugger is active!
+16-01-2024 11:35:31 -  * Debugger PIN: 443-246-619
+16-01-2024 11:35:35 - 127.0.0.1 - - [16/Jan/2024 11:35:35] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:35:55 - 127.0.0.1 - - [16/Jan/2024 11:35:55] "POST /appointment HTTP/1.1" 200 -
+16-01-2024 11:35:59 - 127.0.0.1 - - [16/Jan/2024 11:35:59] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:38:07 - 127.0.0.1 - - [16/Jan/2024 11:38:07] "POST /appointment HTTP/1.1" 200 -
+16-01-2024 11:38:10 - 127.0.0.1 - - [16/Jan/2024 11:38:10] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:39:05 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resources\\appointment.py', reloading
+16-01-2024 11:39:05 -  * Restarting with stat
+16-01-2024 11:39:06 -  * Debugger is active!
+16-01-2024 11:39:06 -  * Debugger PIN: 443-246-619
+16-01-2024 11:39:17 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+16-01-2024 11:39:17 -  * Restarting with stat
+16-01-2024 11:45:37 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:45:37 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:45:37 -  * Restarting with stat
+16-01-2024 11:45:38 -  * Debugger is active!
+16-01-2024 11:45:38 -  * Debugger PIN: 443-246-619
+16-01-2024 11:46:14 - 127.0.0.1 - - [16/Jan/2024 11:46:14] "POST /login HTTP/1.1" 200 -
+16-01-2024 11:46:35 - 127.0.0.1 - - [16/Jan/2024 11:46:35] "GET /appointment/BKjCHQEqXu HTTP/1.1" 200 -
+16-01-2024 11:46:47 - 127.0.0.1 - - [16/Jan/2024 11:46:47] "POST /appointment HTTP/1.1" 200 -
+16-01-2024 11:49:33 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\schemas\\appointment_schemas.py', reloading
+16-01-2024 11:49:33 -  * Restarting with stat
+16-01-2024 11:53:19 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+16-01-2024 11:53:19 - [33mPress CTRL+C to quit[0m
+16-01-2024 11:53:19 -  * Restarting with stat
+16-01-2024 11:53:21 -  * Debugger is active!
+16-01-2024 11:53:21 -  * Debugger PIN: 443-246-619
+16-01-2024 11:53:23 - 127.0.0.1 - - [16/Jan/2024 11:53:23] "POST /appointment HTTP/1.1" 200 -
+16-01-2024 11:56:44 - 127.0.0.1 - - [16/Jan/2024 11:56:44] "[31m[1mPOST /appointment HTTP/1.1[0m" 422 -
+16-01-2024 12:00:31 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\main.py', reloading
+16-01-2024 12:00:31 -  * Restarting with stat
+16-01-2024 12:00:32 -  * Debugger is active!
+16-01-2024 12:00:32 -  * Debugger PIN: 443-246-619
+16-01-2024 12:00:36 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\main.py', reloading
+16-01-2024 12:00:36 -  * Restarting with stat

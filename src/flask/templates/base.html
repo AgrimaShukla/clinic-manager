@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <ul>
+               <h1> CLINIC MANAGEMENT SYSTEM</h1>
+               {% for item in lst %}
+               <li><a href= "{{url_for('table', table_name = item[0])}}">{{ item[0] }}</a></li>
+               {% endfor %}
+   
+            </ul>
+        </body>
+    </head>
+</html>
