@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "9caa4176-ab59-40d3-8e62-8fc8d66ae4e7",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32148337"
+	},
+	"item": [
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "/appointment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token_mini}}"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"D_id\": \"3cKPp6SFt3\",\r\n    \"patient_name\": \"krishna\",\r\n    \"date-time\": \"02-02-2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5000/appointment"
+					},
+					"response": []
+				},
+				{
+					"name": "/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://127.0.0.1:5000/register"
+					},
+					"response": []
+				},
+				{
+					"name": "/appointment/<id>",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "/appointment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token_mini}}"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"date_time\": \"02-02-2024\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5000/appointment"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "/doctor/id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token_mini}}"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "http://127.0.0.1:5000/doctor/KUqPoDw9cC"
+					},
+					"response": []
+				},
+				{
+					"name": "/doctor",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token_mini}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:5000/doctor"
+					},
+					"response": []
+				},
+				{
+					"name": "/doctor",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token_mini}}"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"yashasvi\",\r\n    \"mobile_no\": \"8987898098\",\r\n    \"gender\": \"female\",\r\n    \"age\": 35,\r\n    \"specialization\": \"ortho\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5000/doctor"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.globals.set(\"access_token_mini\", pm.response.json().access_token)s"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"krishna09\",\r\n    \"password\": \"krishna09\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/login"
+			},
+			"response": []
+		},
+		{
+			"name": "/logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "{{access_token_mini}}"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"url": "http://127.0.0.1:5000/logout"
+			},
+			"response": []
+		}
+	]
+}
