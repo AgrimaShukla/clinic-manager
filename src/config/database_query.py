@@ -7,7 +7,7 @@ class credentials_query:
                                     role text
 
     )'''
-    query_insert = 'INSERT INTO Credentials (uuid, role) VALUES (?, ?)'
+    query_insert = 'INSERT INTO Credentials (uuid, role, username, password) VALUES (?, ?, ?, ?)'
     query_select1 = 'SELECT password, uuid FROM Credentials WHERE username = ?'
     query_select = 'SELECT role FROM Credentials WHERE username = ? AND password = ?'
 class appointment_query:

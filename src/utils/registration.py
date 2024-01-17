@@ -26,8 +26,8 @@ class Registration:
             print('Username already exists')
             return False
         with DatabaseConnection('src/data.db') as connection:
-            cursor = connection.cursor(credentials_query.query_insert, (uuid, 'user'))
-            cursor.execute()
+            cursor = connection.cursor()
+            cursor.execute(credentials_query.query_insert, (uuid, 'user', username, password))
             cursor.execute(registration.query_insert, (uuid, username, password, name, mobile_number, gender))
         return uuid, name
     
@@ -59,6 +59,7 @@ def login(u_name, u_pw):
     if password == u_pw:
         print(PrintPrompts.SUCCESS)
         role = QueryExecutor.single_returning_query(credentials_query.query_select, (u_name, pw[0]))
+        print(role)
         return role, pw[0], pw[1]
     else:
         logger.error('Invalid username or password')

@@ -14,6 +14,7 @@ from utils.registration import Registration, login
 from utils import menu
 from resources.user import blp_login
 from resources.appointment import blp_appointment
+from resources.admin import blp_admin
 import logging
 from controllers.admin import Register_admin
 from controllers.doctor import Doctor
@@ -109,9 +110,9 @@ if __name__ == "__main__":
             401,
         )
 
-    # @jwt.token_in_blocklist_loader
-    # def check_if_token_in_blocklist(jwt_header, jwt_payload):
-    #     return jwt_payload["jti"] in BLOCKLIST
+    @jwt.token_in_blocklist_loader
+    def check_if_token_in_blocklist(jwt_header, jwt_payload):
+        return jwt_payload["jti"] in BLOCKLIST
 
     @jwt.revoked_token_loader
     def revoked_token_callback(jwt_header, jwt_payload):
@@ -124,6 +125,8 @@ if __name__ == "__main__":
 
     api.register_blueprint(blp_login)
     api.register_blueprint(blp_appointment)
+    api.register_blueprint(blp_admin)
+
 
     app.run(debug=True, port=5000)
 

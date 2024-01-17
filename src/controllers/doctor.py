@@ -23,23 +23,26 @@ class Doctor:
     def create_doctor():
         QueryExecutor.non_returning_query(doctor.query_create)
     
-    # @staticmethod
-    def add_doctor(self):
+    @staticmethod
+    def add_doctor(D_id, name, mobile_no, age, gender, specialization):
         Doctor.create_doctor()
-        QueryExecutor.non_returning_query(doctor.query_insert, (self.D_id, self.name, self.mobile_no, self.age, self.gender, self.specialization))
+        result = QueryExecutor.non_returning_query(doctor.query_insert, (D_id, name, mobile_no, age, gender, specialization))
+        return result
 
     @staticmethod
     def delete_doctor(d_id):
-        QueryExecutor.non_returning_query(doctor.query_delete, (d_id, ))
+        result = QueryExecutor.non_returning_query(doctor.query_delete, (d_id, ))
+        return result
     
     @staticmethod
     def show_doctor():
         table = QueryExecutor.returning_query(doctor.query_select)
+        # print(table)
         if not table:
             return False
         else:
-            print(tabulate(table))
-            return True
+            response_data = [{"doctor_name": i[0],"specialization": i[1]} for i in table ]
+            return response_data
             
     
     @staticmethod

@@ -8,16 +8,16 @@ class QueryExecutor:
 
     @staticmethod
     def returning_query(query, params = None):
-        try:
-            with DatabaseConnection("src/data.db") as connection:
-                cursor = connection.cursor()
-                if params:
-                    data = cursor.execute(query, params).fetchall()
-                    return data
-                data = cursor.execute(query)
+        
+        with DatabaseConnection("src/data.db") as connection:
+            cursor = connection.cursor()
+            if params:
+                data = cursor.execute(query, params).fetchall()
+                # print(data)
                 return data
-        except sqlite3.Error as er:
-            print(PrintPrompts.ERROR)
+            data = cursor.execute(query).fetchall()
+            return data
+        
 
     @staticmethod
     def non_returning_query(query, params = None):
@@ -34,16 +34,15 @@ class QueryExecutor:
                 
     @staticmethod
     def single_returning_query(query, params = None):
-        try:
-            with DatabaseConnection("src/data.db") as connection:
-                cursor = connection.cursor()
-                if params:
-                    data = cursor.execute(query, params).fetchone()
-                    return data
-                data = cursor.execute(query)
+        
+        with DatabaseConnection("src/data.db") as connection:
+            cursor = connection.cursor()
+            if params:
+                data = cursor.execute(query, params).fetchone()
                 return data
-        except sqlite3.Error as er:
-            print(PrintPrompts.ERROR)
+            data = cursor.execute(query)
+            return data
+        
         # except sqlite3.Error as e:
         #     logging.debug(e)
         #     print(PrintPrompts.ERROR)
