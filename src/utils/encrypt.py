@@ -9,7 +9,7 @@ from cryptography.fernet import Fernet
 #     filekey.write(key)
 
 def get_key()->bytes:
-    with open('src/utils/filekey.key', 'rb') as filekey:
+    with open('utils/filekey.key', 'rb') as filekey:
         key = filekey.read()
     return key
 

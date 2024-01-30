@@ -1,13 +1,16 @@
-from marshmallow import Schema, fields, validate
+from pydantic import BaseModel, Field
 
-class UserSchema(Schema):
-    username = fields.Str(required=True, validate=validate.Regexp('[A-Za-z0-9._]{2,30}'))
-    password = fields.Str(required=True)
+class UserSchema(BaseModel):
+    username: str 
+    password: str
 
-class UserDetailSchema(Schema):
-    user_id = fields.Str(dump_only=True, validate=validate.Regexp('^[A-Za-z0-9_]+$'))
-    username = fields.Str(required=True, validate=validate.Regexp('[A-Za-z0-9._]{2,30}'))
-    password = fields.Str(required=True)
-    name = fields.Str(required=True, validate=validate.Regexp('([A-Za-z]{2,25}\s*)+'))
-    mobile_number = fields.Str(required=True, validate=validate.Regexp('[6-9][0-9]{9}'))
-    gender = fields.Str(required=True, validate=validate.Regexp('male|female|other'))
+class UserDetailSchema(UserSchema):
+    username: str
+    password: str 
+    name: str 
+    mobile_number: str 
+    gender: str
+
+class Token(BaseModel):
+    access_token: str
+    message: str

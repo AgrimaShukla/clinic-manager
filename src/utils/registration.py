@@ -44,10 +44,10 @@ class Registration:
 # Login user
 def login(u_name, u_pw):
     pw = None
-    with DatabaseConnection('src\data.db') as connection:
+    with DatabaseConnection('src/data.db') as connection:
         cursor = connection.cursor()
         pw = cursor.execute(credentials_query.query_select1, (u_name,)).fetchone()
-
+    
     if pw is None:
         print(PrintPrompts.INVALID)
         return False
@@ -59,7 +59,6 @@ def login(u_name, u_pw):
     if password == u_pw:
         print(PrintPrompts.SUCCESS)
         role = QueryExecutor.single_returning_query(credentials_query.query_select, (u_name, pw[0]))
-        print(role)
         return role, pw[0], pw[1]
     else:
         logger.error('Invalid username or password')

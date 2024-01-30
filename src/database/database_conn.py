@@ -9,10 +9,11 @@ logger = logging.getLogger('database')
 class DatabaseConnection:
     def __init__(self, host):
         self.connection = None
-        self.host = "src/data.db"
+        self.host = "data.db"
 
     def __enter__(self):
          self.connection = sqlite3.connect(self.host)
+         
          return self.connection
 
     def __exit__(self, exc_type, exc_val, exc_tb):

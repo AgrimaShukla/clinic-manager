@@ -2329,3 +2329,9 @@
 23-01-2024 11:31:03 - 127.0.0.1 - - [23/Jan/2024 11:31:03] "[31m[1mGET /appointment/5sdBzwzUru HTTP/1.1[0m" 401 -
 23-01-2024 11:31:09 - 127.0.0.1 - - [23/Jan/2024 11:31:09] "[31m[1mGET /appointment/5sdBzwzUru HTTP/1.1[0m" 401 -
 23-01-2024 11:31:31 - 127.0.0.1 - - [23/Jan/2024 11:31:31] "[31m[1mGET /appointment/5sdBzwzUru HTTP/1.1[0m" 401 -
+23-01-2024 12:39:31 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\resource\\auth.py', reloading
+23-01-2024 12:39:32 -  * Restarting with stat
+23-01-2024 12:39:33 -  * Debugger is active!
+23-01-2024 12:39:33 -  * Debugger PIN: 443-246-619
+23-01-2024 12:39:52 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\main.py', reloading
+23-01-2024 12:39:52 -  * Restarting with stat

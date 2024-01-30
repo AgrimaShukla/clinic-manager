@@ -1,71 +1,59 @@
-from flask.views import MethodView
-from flask_smorest import Blueprint, abort
+
+from fastapi import FastAPI, HTTPException, APIRouter, Body
 import shortuuid
 import sqlite3
-from utils.rolemapping import Role
-from schemas.user_schemas import UserSchema, UserDetailSchema
+from datetime import timedelta
 from utils.registration import login, Registration
-from flask_jwt_extended import create_access_token
-from flask_jwt_extended import get_jwt, jwt_required
-from blocklist import BLOCKLIST
-from resources.mailgun import send_simple_message
+from schemas.user_schemas import UserSchema, UserDetailSchema, Token
+from starlette import status
+from resources.access_token import create_access_token
 
-blp_login = Blueprint("Users", "users", description = "Operations on users")
+auth_route = APIRouter()
 
-@blp_login.route("/login")
-class UserLogin(MethodView):
-    @blp_login.arguments(UserSchema)
-    def post(self, user_data):
-        try:
-            user = login(user_data['username'], user_data['password'])
-            print(user)
-            if  user is False:
-                abort(401, message = "Username or password does not exist")
-            else:
-                get_role = Role.get_role(user[0][0])
-                access_token = create_access_token(identity=user[2], additional_claims={"role": get_role})
-                return {
-                    "access_token": access_token,
-                    "message": "User logged in"
-                }
-        except sqlite3.Error:
-            abort(500, message = "Server error")
+@auth_route.post("/login", status_code=status.HTTP_200_OK, response_model=Token)
+def post(credentials: UserSchema):
+    try:
+        user = login(credentials.username, credentials.password)
+        if user is False:
+            raise HTTPException(401, detail = "Username or password does not exist")
+        else:
+            token = create_access_token(credentials.username, user[2], user[0][0], timedelta(minutes=20))
+            return {
+                "access_token": token,
+                "message": "User logged in"
+            }
+    except sqlite3.Error:
+        raise HTTPException(500, detail = "Server error")
         
-@blp_login.route("/register")
-class UserRegistration(MethodView):
-    @blp_login.arguments(UserDetailSchema)
-    def post(self, user_data):
-        patient_id = shortuuid.ShortUUID().random(length = 10)
-        patient_obj = Registration()
-        try:
-            data = patient_obj.register_user(patient_id, user_data["username"], user_data["password"], user_data["name"], user_data["mobile_number"], user_data["gender"])
-            # print(data)
-            if not data:
-                abort(500, message = "Server error")
-            elif data:
-                send_simple_message(
-                    'shreyansh.brbd@gmail.com', 
-                    'Registered',
-                    f'You have been registered with username {user_data["username"]}'
-                )
-                return {
-                    "ID": data[0],
-                    "name": data[1]
-                }
-            else:
-                abort(500, message = "Error while registering")
-        except sqlite3.IntegrityError:
-            abort(409, message = "User already exists")
-        except sqlite3.Error:
-            abort(500, message = "Server error")
 
-@blp_login.route("/logout")
-class UserLogout(MethodView):
-   @jwt_required()
-   @blp_login.doc(parameters=[{'name': 'Authorization', 'in': 'header', 'description': 'Authorization: Bearer <access_token>', 'required': 'true'}])
-   def post(self):
-       jot = get_jwt().get('jti')
-       BLOCKLIST.add(jot)
-       return {
-           "message": "Logged out"
-       }
+@auth_route.post('/register', status_code=status.HTTP_201_CREATED)
+def post(user_data: UserDetailSchema):
+    patient_id = shortuuid.ShortUUID().random(length = 10)
+    patient_obj = Registration()
+    try:
+        data = patient_obj.register_user(patient_id, user_data.username, user_data.password, user_data.name, user_data.mobile_number, user_data.gender)
+        # print(data)
+        if not data:
+            raise HTTPException(500, detail = "Server error")
+        elif data:
+            return {
+                "ID": data[0],
+                "name": data[1]
+            }
+        else:
+            raise HTTPException(500, message = "Error while registering")
+    except sqlite3.IntegrityError:
+        raise HTTPException(409, message = "User already exists")
+    except sqlite3.Error:
+        raise HTTPException(500, message = "Server error")
+
+# @blp_login.route("/logout")
+# class UserLogout(MethodView):
+#    @jwt_required()
+#    @blp_login.doc(parameters=[{'name': 'Authorization', 'in': 'header', 'description': 'Authorization: Bearer <access_token>', 'required': 'true'}])
+#    def post(self):
+#        jot = get_jwt().get('jti')
+#        BLOCKLIST.add(jot)
+#        return {
+#            "message": "Logged out"
+#        }
