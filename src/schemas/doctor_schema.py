@@ -1,8 +1,12 @@
 from pydantic import BaseModel, Field
 
 class DoctorSchema(BaseModel):
-    doctor_name : str = Field(pattern=r"([A-Za-z]{2,25}\s*)+")
+    name : str = Field(pattern=r"([A-Za-z]{2,25}\s*)+")
+    mobile_no: int
+    age: int
+    gender: str
     specialization : str = Field(pattern=r"([A-Za-z]{2,25}\s*)+")
+
 
 class DoctorAdd(BaseModel):
     D_id : str 

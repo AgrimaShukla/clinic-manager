@@ -26,53 +26,19 @@ logging.basicConfig(format = '%(asctime)s - %(message)s',
                                         )
 logger = logging.getLogger("main")
 
-def main_menu():
-    print(PrintPrompts.WELCOME)
-    while True:
-            print(PrintPrompts.LOGIN_MENU)
-            choice = input(InputPrompts.ENTER)
-            if choice == '1':
-                username = input('Enter username: ')
-                password = input('Enter password: ')
-                role, p_id, p_name = login(username, password)
-                if role == 'admin':
-                    while True:
-                        print(PrintPrompts.ADMIN_MENU)
-                        choice = input(InputPrompts.ENTER)
-                        if choice == '1':
-                            Doctor()
-                        elif choice == '2':
-                            d_id = input(InputPrompts.DOCTOR_ID)
-                            Doctor.delete_doctor(d_id)
-                        elif choice == '3':
-                            break
-                elif role == 'user':
-                    menu.menu_display(p_id, p_name)
-                else: 
-                    print('INVALID USERNAME OR PASSWORD')
-
-            elif choice == '2':
-                try:  
-                    patient_obj = Registration()
-                    P_ID, name = patient_obj.reg()
-                    username = input('Enter username: ')
-                    password = input('Enter password: ')
-                    p_id, p_name = login(username, password)
-                    menu.menu_display(P_ID, name)
-                except Exception as e:
-                    logger.debug(e)
-                    print(PrintPrompts.UNABLE)
-
-            else:
-                print(PrintPrompts.INVALID_CHOICE)
-
-
-
 # if __name__ == "__main__":
+
+
     
 app = FastAPI()
+
+@app.get("/healthy")
+def check():
+    return {'status': 'All good'}
+
 app.include_router(auth_route)
 app.include_router(doctor_route)
 app.include_router(appointment_route)
 
+ 
 # user can see other people's appointment, all appointments show delete appointment, unique in mobile

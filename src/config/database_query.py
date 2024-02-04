@@ -4,7 +4,9 @@ This module is for managing all the queries
 class credentials_query:
     query_create = '''CREATE TABLE IF NOT EXISTS Credentials(
                                     uuid text primary key,
-                                    role text
+                                    role text,
+                                    username text,
+                                    password text
 
     )'''
     query_insert = 'INSERT INTO Credentials (uuid, role, username, password) VALUES (?, ?, ?, ?)'
@@ -65,3 +67,6 @@ class admin:
     query_insert = 'INSERT INTO ADMIN (A_id, username, password, name, mobile_number, age, gender) VALUES (?, ?, ?, ?, ?, ?, ?)'
     query_select = 'SELECT password from ADMIN where username = ?'
 
+class DatabasePath:
+    DBPath = "src/data.db"
+    TESTDB = "tests/test_data.db"

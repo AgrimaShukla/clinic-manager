@@ -2,14 +2,14 @@ from database.database_conn import DatabaseConnection
 from config.prompts import PrintPrompts, InputPrompts
 import sqlite3
 import logging
+from config.database_query import DatabasePath
 
 logger = logging.getLogger("Database")   
 class QueryExecutor:
 
     @staticmethod
     def returning_query(query, params = None):
-        
-        with DatabaseConnection("src/data.db") as connection:
+        with DatabaseConnection(DatabasePath.DBPath) as connection:
             cursor = connection.cursor()
             if params:
                 data = cursor.execute(query, params).fetchall()
@@ -22,8 +22,7 @@ class QueryExecutor:
     @staticmethod
     def non_returning_query(query, params = None):
         # try:
-            print(params)
-            with DatabaseConnection("src/data.db") as connection:
+            with DatabaseConnection(DatabasePath.DBPath) as connection:
                 cursor = connection.cursor()
                 if params:
                     cursor.execute(query, params)
@@ -35,7 +34,7 @@ class QueryExecutor:
     @staticmethod
     def single_returning_query(query, params = None):
         
-        with DatabaseConnection("src/data.db") as connection:
+        with DatabaseConnection(DatabasePath.DBPath) as connection:
             cursor = connection.cursor()
             if params:
                 data = cursor.execute(query, params).fetchone()
@@ -47,5 +46,3 @@ class QueryExecutor:
         #     logging.debug(e)
         #     print(PrintPrompts.ERROR)
         #     return False
-
-

@@ -3,7 +3,7 @@ from controllers.appointments import Clinic
 from starlette import status
 import sqlite3
 from resources.access_token import user_dependency
-appointment_route = APIRouter()
+appointment_route = APIRouter(tags=["appointment"])
 
 @appointment_route.get("/appointment/{user_id}", status_code=status.HTTP_200_OK)
 def get(user: user_dependency, user_id: str):
