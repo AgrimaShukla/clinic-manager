@@ -32,9 +32,9 @@ logger = logging.getLogger("main")
     
 app = FastAPI()
 
-@app.get("/healthy")
-def check():
-    return {'status': 'All good'}
+# @app.get("/healthy")
+# def check():
+#     return {'status': 'All good'}
 
 app.include_router(auth_route)
 app.include_router(doctor_route)

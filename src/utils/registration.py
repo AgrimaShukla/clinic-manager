@@ -7,7 +7,7 @@ import shortuuid
 import maskpass
 from database.database_conn import DatabaseConnection
 from utils import validation
-from config.database_query import registration, credentials_query
+from config.database_query import registration, credentials_query, DatabasePath
 from utils.encrypt import encrypt, decrypt
 from config.prompts import PrintPrompts, InputPrompts
 from database.database_access import QueryExecutor
@@ -18,14 +18,15 @@ class Registration:
 
     def register_user(self, uuid, username, password, name, mobile_number, gender) -> str:
         
-        password = encrypt(password)
+        # password = encrypt(password)
+        print(username)
         obj_query = QueryExecutor()
-        result = obj_query.returning_query(registration.query_select, (username,))
-        # print(result)
-        if result:
-            print('Username already exists')
-            return False
-        with DatabaseConnection('src/data.db') as connection:
+        result = obj_query.returning_query(credentials_query.query_select1, (username,))
+        print(result)
+        # if result:
+        #     print('Username already exists')
+        #     return False
+        with DatabaseConnection(DatabasePath.DBPath) as connection:
             cursor = connection.cursor()
             cursor.execute(credentials_query.query_insert, (uuid, 'user', username, password))
             cursor.execute(registration.query_insert, (uuid, username, password, name, mobile_number, gender))
@@ -43,11 +44,14 @@ class Registration:
 
 # Login user
 def login(u_name, u_pw):
+    
     pw = None
-    with DatabaseConnection('src/data.db') as connection:
+    with DatabaseConnection('data.db') as connection:
+        print("yay")
         cursor = connection.cursor()
         pw = cursor.execute(credentials_query.query_select1, (u_name,)).fetchone()
-    
+
+    print(pw)
     if pw is None:
         print(PrintPrompts.INVALID)
         return False

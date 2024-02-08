@@ -8,6 +8,7 @@ SECRET_KEY = 'fIqrMcrIKjZqsEZdfwne82n8YsL6F3K0'
 ALGORITHM = 'HS256'
 
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl='/login')
+
 def create_access_token(username: str, user_id: str, role: str, expires_delta: timedelta):
     encode = {'sub': username, 'id': user_id, 'role': role}
     expires = datetime.utcnow() + expires_delta
@@ -27,5 +28,3 @@ def get_user(token: Annotated[str, Depends(oauth2_bearer)]):
     except JWTError:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail = "Could not validate user")
 
- 
-user_dependency = Annotated[dict, Depends(get_user)]

@@ -32,7 +32,7 @@ class registration:
                                      username text UNIQUE, 
                                      password text, 
                                      name text, 
-                                     mobile_number INTEGER, 
+                                     mobile_number INTEGER UNIQUE, 
                                      age INTEGER, gender text
                                      )'''
 
@@ -68,5 +68,5 @@ class admin:
     query_select = 'SELECT password from ADMIN where username = ?'
 
 class DatabasePath:
-    DBPath = "src/data.db"
+    DBPath = "data.db"
     TESTDB = "tests/test_data.db"

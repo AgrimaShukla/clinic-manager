@@ -2335,3 +2335,137 @@
 23-01-2024 12:39:33 -  * Debugger PIN: 443-246-619
 23-01-2024 12:39:52 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\PythonProjects\\mini_project\\src\\main.py', reloading
 23-01-2024 12:39:52 -  * Restarting with stat
+06-02-2024 14:44:09 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 14:44:17 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 14:44:32 - Using proactor: IocpProactor
+06-02-2024 14:44:32 - HTTP Request: GET http://testserver/appointment/Uu8y3 "HTTP/1.1 200 OK"
+06-02-2024 14:44:32 - Using proactor: IocpProactor
+06-02-2024 14:44:32 - HTTP Request: POST http://testserver/appointment "HTTP/1.1 201 Created"
+06-02-2024 14:44:32 - Using proactor: IocpProactor
+06-02-2024 14:44:32 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 14:44:32 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 14:44:32 - Using proactor: IocpProactor
+06-02-2024 14:44:32 - HTTP Request: POST http://testserver/doctor "HTTP/1.1 201 Created"
+06-02-2024 14:44:32 - Using proactor: IocpProactor
+06-02-2024 14:44:32 - HTTP Request: DELETE http://testserver/doctor/D_1334 "HTTP/1.1 200 OK"
+06-02-2024 16:54:35 - Using proactor: IocpProactor
+06-02-2024 16:54:35 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 16:54:35 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 16:54:40 - <class 'sqlite3.OperationalError'> error occurred
+06-02-2024 16:54:57 - Using proactor: IocpProactor
+06-02-2024 16:54:57 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 16:54:57 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 16:55:02 - <class 'sqlite3.OperationalError'> error occurred
+06-02-2024 16:56:05 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 16:56:28 - Using proactor: IocpProactor
+06-02-2024 16:56:28 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 16:56:28 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 16:56:33 - <class 'sqlite3.OperationalError'> error occurred
+06-02-2024 16:57:50 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 16:58:45 - Using proactor: IocpProactor
+06-02-2024 16:58:45 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 16:58:45 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:01:15 - Using proactor: IocpProactor
+06-02-2024 17:01:15 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:01:15 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:01:21 - <class 'sqlite3.OperationalError'> error occurred
+06-02-2024 17:02:03 - Using proactor: IocpProactor
+06-02-2024 17:02:03 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:02:03 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:02:08 - <class 'sqlite3.OperationalError'> error occurred
+06-02-2024 17:02:26 - Using proactor: IocpProactor
+06-02-2024 17:02:26 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:02:26 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:02:32 - <class 'sqlite3.OperationalError'> error occurred
+06-02-2024 17:03:28 - Using proactor: IocpProactor
+06-02-2024 17:03:28 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:03:28 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:03:34 - <class 'sqlite3.OperationalError'> error occurred
+06-02-2024 17:04:29 - Using proactor: IocpProactor
+06-02-2024 17:04:29 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:04:29 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:05:08 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:06:40 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:06:54 - Using proactor: IocpProactor
+06-02-2024 17:06:54 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:06:54 - HTTP Request: POST http://testserver/register "HTTP/1.1 201 Created"
+06-02-2024 17:07:19 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:08:45 - Using proactor: IocpProactor
+06-02-2024 17:08:45 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:08:45 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:09:12 - Using proactor: IocpProactor
+06-02-2024 17:09:12 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:09:12 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:09:27 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:10:00 - Using proactor: IocpProactor
+06-02-2024 17:10:00 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:10:00 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:10:40 - Using proactor: IocpProactor
+06-02-2024 17:10:40 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:10:40 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:11:15 - Using proactor: IocpProactor
+06-02-2024 17:11:15 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:11:15 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:12:17 - Using proactor: IocpProactor
+06-02-2024 17:12:17 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:12:17 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:12:40 - Using proactor: IocpProactor
+06-02-2024 17:12:40 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:12:40 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:13:43 - Using proactor: IocpProactor
+06-02-2024 17:13:43 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:13:43 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:22:24 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:22:40 - Using proactor: IocpProactor
+06-02-2024 17:22:40 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:22:40 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:23:36 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:23:51 - Using proactor: IocpProactor
+06-02-2024 17:23:51 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:23:51 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:27:03 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:28:07 - Using proactor: IocpProactor
+06-02-2024 17:28:07 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:28:07 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:28:07 - Using proactor: IocpProactor
+06-02-2024 17:28:07 - HTTP Request: POST http://testserver/doctor "HTTP/1.1 201 Created"
+06-02-2024 17:28:07 - Using proactor: IocpProactor
+06-02-2024 17:28:07 - HTTP Request: DELETE http://testserver/doctor/D_1334 "HTTP/1.1 200 OK"
+06-02-2024 17:28:21 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:28:33 - Using proactor: IocpProactor
+06-02-2024 17:28:33 - HTTP Request: GET http://testserver/appointment/Uu8y3 "HTTP/1.1 200 OK"
+06-02-2024 17:28:33 - Using proactor: IocpProactor
+06-02-2024 17:28:33 - HTTP Request: POST http://testserver/appointment "HTTP/1.1 201 Created"
+06-02-2024 17:28:33 - Using proactor: IocpProactor
+06-02-2024 17:28:33 - <class 'sqlite3.IntegrityError'> error occurred
+06-02-2024 17:28:33 - HTTP Request: POST http://testserver/register "HTTP/1.1 409 Conflict"
+06-02-2024 17:28:33 - Using proactor: IocpProactor
+06-02-2024 17:28:33 - HTTP Request: POST http://testserver/doctor "HTTP/1.1 201 Created"
+06-02-2024 17:28:33 - Using proactor: IocpProactor
+06-02-2024 17:28:33 - HTTP Request: DELETE http://testserver/doctor/D_1334 "HTTP/1.1 200 OK"
+08-02-2024 09:17:19 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+08-02-2024 09:17:19 - [33mPress CTRL+C to quit[0m
+08-02-2024 09:17:19 -  * Restarting with stat
+08-02-2024 09:17:21 -  * Debugger is active!
+08-02-2024 09:17:21 -  * Debugger PIN: 600-955-150
+08-02-2024 09:17:22 - 7SZ9VcsqFv -  route for login
+08-02-2024 09:17:22 - 7SZ9VcsqFv - User trying to login
+08-02-2024 09:17:22 - 7SZ9VcsqFv - User is trying to login with username babita_17
+08-02-2024 09:17:22 - New access and refresh token issued
+08-02-2024 09:17:22 - 127.0.0.1 - - [08/Feb/2024 09:17:22] "POST /travelmanagementsystem/v1/signin HTTP/1.1" 200 -
+08-02-2024 09:17:35 -  * Debugger is active!
+08-02-2024 09:17:35 -  * Debugger PIN: 600-955-150
+08-02-2024 09:17:36 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+08-02-2024 09:17:36 - [33mPress CTRL+C to quit[0m
+08-02-2024 09:17:36 -  * Restarting with stat
+08-02-2024 09:17:37 -  * Debugger is active!
+08-02-2024 09:17:37 -  * Debugger PIN: 600-955-150
+08-02-2024 09:18:00 - 7QdgstRJPd -  route for login
+08-02-2024 09:18:00 - 7QdgstRJPd - User trying to login
+08-02-2024 09:18:00 - 7QdgstRJPd - User is trying to login with username babita_17
+08-02-2024 09:18:00 - New access and refresh token issued
+08-02-2024 09:18:00 - 127.0.0.1 - - [08/Feb/2024 09:18:00] "POST /travelmanagementsystem/v1/signin HTTP/1.1" 200 -
+08-02-2024 09:18:16 -  * Detected change in 'c:\\Users\\ashukla\\OneDrive - WatchGuard Technologies Inc\\Desktop\\Minor project\\Tours and Travel\\src\\app.py', reloading
+08-02-2024 09:18:16 -  * Restarting with stat

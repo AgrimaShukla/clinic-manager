@@ -4,9 +4,10 @@ from fastapi import Body, HTTPException, APIRouter, Depends
 from schemas.doctor_schema import DoctorSchema
 from controllers.doctor import Doctor
 from starlette import status
-from resources.access_token import get_user, user_dependency
+from resources.access_token import get_user
 doctor_route = APIRouter()
 
+user_dependency = Annotated[dict, Depends(get_user)]
 
 @doctor_route.get("/doctor", status_code=status.HTTP_200_OK)
 def get(user: user_dependency):
@@ -20,6 +21,7 @@ def get(user: user_dependency):
 
 @doctor_route.post("/doctor", status_code=status.HTTP_201_CREATED)
 def post(user: user_dependency, appointment_details: DoctorSchema):
+    print(appointment_details)
     appointment_details = appointment_details.model_dump()
     if user is None or user.get('role') != 'admin':
         raise HTTPException(status_code=401, detail ='Authentication Failed')

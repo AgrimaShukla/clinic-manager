@@ -2,8 +2,13 @@ from fastapi import HTTPException, APIRouter, Body
 from controllers.appointments import Clinic
 from starlette import status
 import sqlite3
-from resources.access_token import user_dependency
+from typing import Annotated
+from fastapi import Depends, HTTPException
+from resources.access_token import get_user
 appointment_route = APIRouter(tags=["appointment"])
+
+
+user_dependency = Annotated[dict, Depends(get_user)]
 
 @appointment_route.get("/appointment/{user_id}", status_code=status.HTTP_200_OK)
 def get(user: user_dependency, user_id: str):
@@ -13,6 +18,7 @@ def get(user: user_dependency, user_id: str):
                 raise HTTPException(status_code=401, detail ='Authentication Failed')
             clinic_obj = Clinic()
             data = clinic_obj.get_all_appointments(user_id)
+            print(data)
             if data:
                 return data
             else:
@@ -22,6 +28,7 @@ def get(user: user_dependency, user_id: str):
 
 @appointment_route.post("/appointment", status_code=status.HTTP_201_CREATED)
 def post(user: user_dependency, user_data = Body()):
+    print(user)
     try:
         if user is None or user.get('role') != 'user':
             raise HTTPException(status_code=401, detail ='Authentication Failed')
