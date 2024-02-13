@@ -3,7 +3,8 @@ import maskpass
 from utils import validation
 from utils.encrypt import encrypt, decrypt
 from database.database_conn import DatabaseConnection
-from config.database_query import admin
+from config.database_query import admin, DatabasePath
+
 from controllers.admin_table import Admin
 from config.prompts import PrintPrompts
 
@@ -20,7 +21,7 @@ class Register_admin:
         Admin.add_admin(self.A_id, self.username, self.password, self.name, self.mobile_no, self.age, self.gender)
 
     def check_admin():
-        with DatabaseConnection("src/database/data.db") as connection:
+        with DatabaseConnection(DatabasePath.DBPath) as connection:
             attempts = 3
             print(PrintPrompts.LOGIN)
             while attempts > 0:

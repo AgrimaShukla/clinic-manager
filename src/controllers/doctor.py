@@ -5,6 +5,7 @@ from database.database_conn import DatabaseConnection
 from config.database_query import doctor, appointment_query, credentials_query
 from config.prompts import PrintPrompts, InputPrompts
 from database.database_access import QueryExecutor
+from config.database_query import DatabasePath
 
 class Doctor:
     
@@ -47,7 +48,7 @@ class Doctor:
     
     @staticmethod
     def doctor_appoint():
-        with DatabaseConnection("src/database/data.db") as connection:
+        with DatabaseConnection(DatabasePath.DBPath) as connection:
             new_id = {}
             new_name = {}
             cursor = connection.cursor()

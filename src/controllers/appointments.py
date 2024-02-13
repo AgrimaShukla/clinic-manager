@@ -12,6 +12,7 @@ from database.database_access import QueryExecutor
 from config.database_query import appointment_query, doctor
 from config.prompts import PrintPrompts, InputPrompts
 from database.database_access import DatabaseConnection
+from config.database_query import DatabasePath
 
 logger = logging.getLogger("Appointment")       
 
@@ -47,7 +48,7 @@ class Clinic:
     
     @staticmethod
     def my_appointments(name, id)->None:
-        with DatabaseConnection('src/database/data.db') as connection:
+        with DatabaseConnection(DatabasePath.DBPath) as connection:
             # new_dict = {}
             new_dict2 = {}
             cursor = connection.cursor()
