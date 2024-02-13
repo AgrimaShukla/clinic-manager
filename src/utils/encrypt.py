@@ -1,6 +1,7 @@
 '''
 This module handles encryption and decryption od password stored in database
 '''
+import os
 
 from cryptography.fernet import Fernet
 
@@ -8,8 +9,9 @@ from cryptography.fernet import Fernet
 # with open('filekey.key', 'wb') as filekey:
 #     filekey.write(key)
 
+key_path = key_path = os.path.abspath(os.curdir) + "utils/filekey.key"
 def get_key()->bytes:
-    with open('utils/filekey.key', 'rb') as filekey:
+    with open(key_path, 'rb') as filekey:
         key = filekey.read()
     return key
 
