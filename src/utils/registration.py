@@ -11,7 +11,7 @@ from config.database_query import registration, credentials_query, DatabasePath
 from utils.encrypt import encrypt, decrypt
 from config.prompts import PrintPrompts, InputPrompts
 from database.database_access import QueryExecutor
-from config.database_query import registration
+from config.database_query import registration, DatabasePath
 logger = logging.getLogger('reg')
 
 class Registration:
@@ -36,7 +36,7 @@ class Registration:
 
     # registering user
     def reg(self)->str:
-        with DatabaseConnection('src/data.db') as connection:
+        with DatabaseConnection(DatabasePath.DBPath) as connection:
             cursor = connection.cursor()
             cursor.execute(registration.query_create)
             self.p_id, self.name = Registration.register_user(self)
@@ -47,7 +47,7 @@ class Registration:
 def login(u_name, u_pw):
     
     pw = None
-    with DatabaseConnection('data.db') as connection:
+    with DatabaseConnection(DatabasePath.DBPath) as connection:
         cursor = connection.cursor()
         pw = cursor.execute(credentials_query.query_select1, (u_name,)).fetchone()
 
