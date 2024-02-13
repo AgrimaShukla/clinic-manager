@@ -7,6 +7,7 @@ from utils.registration import login, Registration
 from schemas.user_schemas import UserSchema, UserDetailSchema, Token
 from starlette import status
 from resources.access_token import create_access_token
+from config.database_query import DatabasePath
 
 auth_route = APIRouter()
 
@@ -14,6 +15,7 @@ auth_route = APIRouter()
 def post(credentials: UserSchema):
     try:
         # print("hey")
+        print(DatabasePath.DBPath)
         user = login(credentials.username, credentials.password)
         # print(user)
         if user is False:
