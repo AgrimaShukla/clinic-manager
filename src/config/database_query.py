@@ -1,3 +1,4 @@
+import os
 '''
 This module is for managing all the queries
 '''
@@ -68,5 +69,5 @@ class admin:
     query_select = 'SELECT password from ADMIN where username = ?'
 
 class DatabasePath:
-    DBPath = "data.db"
+    DBPath = os.path.abspath(os.curdir) + "/src/database/data.db"
     TESTDB = "tests/test_data.db"
