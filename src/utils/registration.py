@@ -18,8 +18,8 @@ class Registration:
 
     def register_user(self, uuid, username, password, name, mobile_number, gender) -> str:
         
-        # password = encrypt(password)
-        print(username)
+        password = encrypt(password)
+        # print(username)
         obj_query = QueryExecutor()
         result = obj_query.returning_query(credentials_query.query_select1, (username,))
         print(result)
@@ -29,6 +29,7 @@ class Registration:
         with DatabaseConnection(DatabasePath.DBPath) as connection:
             cursor = connection.cursor()
             cursor.execute(credentials_query.query_insert, (uuid, 'user', username, password))
+            cursor.execute(registration.query_create)
             cursor.execute(registration.query_insert, (uuid, username, password, name, mobile_number, gender))
         return uuid, name
     
@@ -47,11 +48,9 @@ def login(u_name, u_pw):
     
     pw = None
     with DatabaseConnection('data.db') as connection:
-        print("yay")
         cursor = connection.cursor()
         pw = cursor.execute(credentials_query.query_select1, (u_name,)).fetchone()
 
-    print(pw)
     if pw is None:
         print(PrintPrompts.INVALID)
         return False

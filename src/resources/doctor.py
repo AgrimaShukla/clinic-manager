@@ -11,6 +11,7 @@ user_dependency = Annotated[dict, Depends(get_user)]
 
 @doctor_route.get("/doctor", status_code=status.HTTP_200_OK)
 def get(user: user_dependency):
+    print(user)
     if user is None or user.get('role') != 'admin':
         raise HTTPException(status_code=401, detail ='Authentication Failed')
     data = Doctor.show_doctor()

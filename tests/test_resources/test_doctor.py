@@ -6,7 +6,7 @@ import pytest
 
 doctor = TestClient(app)
 
-@pytest.fixture
+
 
 
 # app.dependency_overrides[user_dependency] = override_user_dependency

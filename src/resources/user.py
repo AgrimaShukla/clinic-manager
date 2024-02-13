@@ -13,9 +13,9 @@ auth_route = APIRouter()
 @auth_route.post("/login", status_code=status.HTTP_200_OK, response_model=Token)
 def post(credentials: UserSchema):
     try:
-        print("hey")
+        # print("hey")
         user = login(credentials.username, credentials.password)
-        print(user)
+        # print(user)
         if user is False:
             raise HTTPException(401, detail = "Username or password does not exist")
         else:
@@ -31,6 +31,7 @@ def post(credentials: UserSchema):
 
 @auth_route.post('/register', status_code=status.HTTP_201_CREATED)
 def post(user_data: UserDetailSchema):
+    # print(user_data)
     patient_id = shortuuid.ShortUUID().random(length = 10)
     patient_obj = Registration()
     try:
