@@ -37,7 +37,8 @@ def post(user: user_dependency, user_data = Body()):
         doctor_name = clinic_obj.get_doctor_for_appointment(user_data["D_id"])
         print(doctor_name)
         result = clinic_obj.add_appointment(user.get('id'), user_data["D_id"], user_data["patient_name"], doctor_name[0][0], user_data["date-time"])
-        if result == True:
+        # print(result)
+        if result:
             print("result  ", result)
             print(user_data)
             return {

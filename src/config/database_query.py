@@ -68,6 +68,8 @@ class admin:
     query_insert = 'INSERT INTO ADMIN (A_id, username, password, name, mobile_number, age, gender) VALUES (?, ?, ?, ?, ?, ?, ?)'
     query_select = 'SELECT password from ADMIN where username = ?'
 
+path_current_directory = os.path.dirname(__file__)
+
 class DatabasePath:
-    DBPath = os.path.abspath(os.curdir) + "/src/database/data.db"
+    DBPath = os.path.join(path_current_directory, "../database/data.db")
     TESTDB = "tests/test_data.db"
